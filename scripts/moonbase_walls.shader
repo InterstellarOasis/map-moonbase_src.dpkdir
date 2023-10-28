@@ -1,6 +1,6 @@
 
-
-cab_door
+// looks unused, duplicate
+models/moonbase_objects/cab_door
 {
 	qer_editorimage textures/moonbase_walls/cab_door_d
 	q3map_nonplanar

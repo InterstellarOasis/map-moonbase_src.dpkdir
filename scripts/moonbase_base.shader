@@ -26,7 +26,7 @@ textures/moonbase_base/white_l
 }
 
 //one for models
-white_l
+models/moonbase_objects/white_l
 {
 	qer_editorimage textures/moonbase_base/white_l
 	q3map_lightimage textures/moonbase_base/white_l

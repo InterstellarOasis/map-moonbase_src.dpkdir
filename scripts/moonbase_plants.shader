@@ -1,5 +1,5 @@
 
-palm01
+models/moonbase_plants/palm01
 {
 	qer_editorimage textures/moonbase_plants/palm01
 	surfaceparm nomarks
@@ -32,7 +32,28 @@ palm01
 	}
 }
 
-small_01
+// workaround
+models/moonbase_plants/small_01
+{
+	qer_editorimage textures/moonbase_plants/small_plant1
+	surfaceparm nomarks
+	cull disable
+	qer_trans 0.5
+	surfaceparm detail
+	q3map_forcemeta
+	q3map_nonplanar
+	q3map_lightmapMergable
+	deformVertexes wave 128	   sin	   0         0.5         0.05      0.2
+	{
+		stage diffusemap
+		map textures/moonbase_plants/small_plant1
+		tcmod stretch  sin      1       0.05   	     0.05    0.04
+		rgbgen vertex
+		alphafunc GE128
+
+	}
+}
+models/moonbase_plants/small_plant1
 {
 	qer_editorimage textures/moonbase_plants/small_plant1
 	surfaceparm nomarks
@@ -54,7 +75,7 @@ small_01
 }
 
 // this is the fern texture for all 3 fern styles
-fern
+models/moonbase_plants/fern
 {
 	qer_editorimage textures/moonbase_plants/fern
 	surfaceparm nomarks
@@ -87,7 +108,7 @@ fern
 }
 
 // this is the bark for the small plant model
-bark01
+models/moonbase_plants/bark01
 {
 	qer_editorimage textures/moonbase_plants/bark01
 	surfaceparm nomarks
@@ -104,7 +125,7 @@ bark01
 
 
 // working tree_2
-bark02
+models/moonbase_plants/bark02
 {
 	qer_editorimage textures/moonbase_plants/bark02
 	cull disable
@@ -125,7 +146,7 @@ bark02
 
 
 //working bark for tree_3
-bark03
+models/moonbase_plants/bark03
 {
 	qer_editorimage textures/moonbase_plants/bark03
 	cull none
@@ -148,7 +169,7 @@ bark03
 
 
 // leaves from tree 3
-leaves
+models/moonbase_plants/leaves
 {
 	qer_editorimage textures/moonbase_plants/leaves
 	surfaceparm nomarks
@@ -184,7 +205,7 @@ leaves
 
 
 // tree_2 big fluffy leaves
-leaf01
+models/moonbase_plants/leaf01
 {
 	qer_editorimage textures/moonbase_plants/leaf01
 	surfaceparm nomarks
@@ -219,7 +240,7 @@ leaf01
 }
 
 // leaf from tree1
-leaf
+models/moonbase_plants/leaf
 {
 	qer_editorimage textures/moonbase_plants/leaf
 	surfaceparm nomarks
@@ -255,7 +276,7 @@ leaf
 
 
 // this actually doesnt puke on a specmap
-dracio
+models/moonbase_plants/dracio
 {
 	qer_editorimage textures/moonbase_plants/dracio
 	surfaceparm nomarks
@@ -289,7 +310,7 @@ dracio
 
 // this is the grass for the small plant model
 // working
-grass
+models/moonbase_plants/grass
 {
 	qer_editorimage textures/moonbase_plants/grass
 	surfaceparm nomarks

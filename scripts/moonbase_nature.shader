@@ -18,7 +18,7 @@ textures/moonbase_nature/moonrock
 	specularmap textures/moonbase_nature/moonrock_s.jpg
 }
 
-moonrock
+models/biodome/moonrock
 {
 	cull none
 	qer_editorimage textures/moonbase_nature/moonrock.jpg
@@ -31,7 +31,7 @@ moonrock
 	{
 	stage diffusemap
 	map textures/moonbase_nature/moonrock.jpg
-		rgbgen vertex
+	rgbgen vertex
 	}
 	normalmap textures/moonbase_nature/moonrock_n.jpg
 	specularmap textures/moonbase_nature/moonrock_s.jpg
@@ -40,7 +40,7 @@ moonrock
 
 
 // model
-sand
+models/biodome/sand
 {
 	cull none
 	q3map_forcemeta
@@ -59,7 +59,7 @@ sand
 }
 
 // this is the dome grass floor
-grass1
+models/biodome/grass1
 {
 	qer_editorimage textures/moonbase_nature/grass1_d
 	cull disable
@@ -71,7 +71,7 @@ grass1
 	specularmap textures/moonbase_nature/grass1_s
 }
 
-textures/moonbase_nature/grass1
+textures/moonbase_nature/grass1_d
 {
 	qer_editorimage textures/moonbase_nature/grass1_d
 	cull disable
@@ -81,7 +81,7 @@ textures/moonbase_nature/grass1
 }
 
 
-rock1_d
+models/moonbase_objects/rock1
 {
 	qer_editorimage textures/moonbase_nature/rock1_d.jpg
 	cull none
@@ -98,7 +98,7 @@ rock1_d
 	specularmap textures/moonbase_nature/rock1_s.jpg
 }
 
-rock2_d
+models/moonbase_objects/rock2
 {
 	qer_editorimage textures/moonbase_nature/rock2_d.jpg
 	cull none
@@ -115,7 +115,7 @@ rock2_d
 	specularmap textures/moonbase_nature/rock2_s.jpg
 }
 
-rock3_d
+models/moonbase_objects/rock3
 {
 	qer_editorimage textures/moonbase_nature/rock3_d.jpg
 	cull none

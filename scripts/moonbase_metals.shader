@@ -8,7 +8,26 @@ textures/moonbase_metals/shiny_metal
 }
 
 
-shiny_metal
+models/biodome/shiny_metal
+{
+	qer_editorimage textures/moonbase_metals/shiny_metal_d
+	q3map_forcemeta
+	q3map_nonplanar
+	q3map_shadeangle 60
+	cull none
+//	surfaceparm detail
+	{
+	stage diffusemap
+	map textures/moonbase_metals/shiny_metal_d
+	rgbgen vertex
+	}
+	diffusemap textures/moonbase_metals/shiny_metal_d
+	normalmap textures/moonbase_metals/basic_normal
+	specularmap textures/moonbase_metals/basic_spec
+
+}
+
+models/moonbase_objects/shiny_metal
 {
 	qer_editorimage textures/moonbase_metals/shiny_metal_d
 	q3map_forcemeta
@@ -47,7 +66,7 @@ textures/moonbase_metals/c_red
 	specularmap textures/moonbase_metals/basic_spec
 }
 
-c_red
+models/moonbase_objects/c_red
 {
 	qer_editorimage textures/moonbase_metals/c_red
 	cull none
@@ -67,7 +86,7 @@ textures/moonbase_metals/c_white
 }
 
 
-c_white
+models/moonbase_objects/c_white
 {
 	qer_editorimage textures/moonbase_metals/c_white
 	q3map_forcemeta
@@ -89,7 +108,7 @@ textures/moonbase_metals/c_yellow
 }
 
 // for the model
-c_yellow
+models/moonbase_objects/c_yellow
 {
 	qer_editorimage textures/moonbase_metals/c_yellow
 	q3map_forcemeta
@@ -114,7 +133,7 @@ textures/moonbase_metals/c_purple
 	specularmap textures/moonbase_metals/basic_spec
 }
 
-c_purple
+models/moonbase_objects/c_purple
 {
 	qer_editorimage textures/moonbase_metals/c_purple
 	cull none
@@ -138,7 +157,7 @@ textures/moonbase_metals/black_shiny
 	specularmap textures/moonbase_metals/basic_spec
 }
 
-black_shiny
+models/moonbase_objects/black_shiny
 {
 	qer_editorimage textures/moonbase_metals/black_shiny
 	q3map_forcemeta

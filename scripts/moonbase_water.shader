@@ -70,7 +70,7 @@ textures/moonbase_water/water
 }
 
 
-water
+models/moonbase_objects/water
 {
 	qer_editorimage textures/moonbase_water/water
 	qer_trans 0.5
@@ -135,7 +135,35 @@ textures/moonbase_water/water_bluish
 		rgbGen identity
 	}
 }	
-water_bluish
+
+models/moonbase_objects/water_bluish
+{
+	qer_editorimage textures/moonbase_water/water_bluish
+	qer_trans 0.5
+	surfaceparm detail
+	surfaceparm nomarks
+	surfaceparm trans
+	surfaceparm water
+	sort water	
+	cull disable
+	qer_trans 0.5
+	q3map_surfacelight 500
+	{
+		stage diffusemap  
+        	map textures/moonbase_water/water_bluish
+	        rgbGen identity
+		blendfunc add
+		alphagen const 0.3
+		tcmod stretch sin  1 0.01 1 0.4
+	}
+	{ 
+		tcgen lightmap
+		map $lightmap
+		blendfunc filter
+		rgbGen identity
+	}
+}	
+models/moonbase_objects/water_bluish
 {
 	qer_editorimage textures/moonbase_water/water_bluish
 	qer_trans 0.5

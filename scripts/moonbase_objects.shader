@@ -17,7 +17,7 @@ models/moonbase_objects/goldfish
 	diffusemap textures/moonbase_objects/goldfish
 }
 
-clownfishclo
+models/moonbase_objects/clownfishclo
 {
 	qer_editorimage textures/moonbase_objects/clownfish
 	q3map_forcemeta
@@ -26,7 +26,7 @@ clownfishclo
 	diffusemap textures/moonbase_objects/clownfish
 }
 
-portal
+models/moonbase_objects/portal
 {
 	qer_editorimage textures/common/portal
 	surfaceparm nolightmap
@@ -49,7 +49,7 @@ textures/moonbase_objects/leather1
 }
 
 
-laptop_scree
+models/moonbase_objects/laptop_scree
 {
 	qer_editorimage textures/moonbase_objects/laptop_screen
 	cull none
@@ -61,7 +61,7 @@ laptop_scree
 }
 
 
-laptop_keybo
+models/moonbase_objects/laptop_keybo
 {
 	qer_editorimage textures/moonbase_objects/laptop_keyboard
 	cull none
@@ -72,7 +72,7 @@ laptop_keybo
 //	specularmap textures/moonbase_objects/laptop_keyboard_s
 }
 
-laptop_base
+models/moonbase_objects/laptop_base
 {
 	qer_editorimage textures/moonbase_objects/laptop_base
 	cull none
@@ -82,7 +82,7 @@ laptop_base
 	specularmap textures/moonbase_objects/laptop_base_s
 }
 
-texture/moonbase_objects/keyboard
+models/moonbase_objects/texture/moonbase_objects/keyboard
 {
 	qer_editorimage textures/moonbase_objects/keyboard
 	cull none
@@ -93,7 +93,7 @@ texture/moonbase_objects/keyboard
 	specularmap textures/moonbase_objects/keyboard_s
 }
 
-screen1
+models/moonbase_objects/screen1
 {
 	qer_editorimage textures/moonbase_objects/screen1
 	q3map_forcemeta
@@ -104,7 +104,7 @@ screen1
 }
 
 
-screen2
+models/moonbase_objects/screen2
 {
 	qer_editorimage textures/moonbase_objects/screen2
 	q3map_forcemeta
@@ -116,7 +116,7 @@ screen2
 
 }
 
-plasticb
+models/moonbase_objects/plasticb
 {
 	qer_editorimage textures/moonbase_objects/plasticb_d
 	q3map_forcemeta
@@ -131,27 +131,27 @@ plasticb
 	specularmap textures/moonbase_objects/plasticb_s
 }
 
-textures/moonbase_objects/crate1_d
+models/moonbase_objects/textures/moonbase_objects/crate1
 {
 	q3map_forcemeta
 	q3map_nonplaner
-	qer_editorimage textures/moonbase_objects/crate1_d
-	diffusemap textures/moonbase_objects/crate1_d
+	qer_editorimage textures/moonbase_objects/crate1
+	diffusemap textures/moonbase_objects/crate1
 	normalmap textures/moonbase_objects/crate1_n
 	specularmap textures/moonbase_objects/crate1_s
 }
 
 
-textures/moonbase_objects/crate2_d
+models/moonbase_objects/textures/moonbase_objects/crate2
 {
-	qer_editorimage textures/moonbase_objects/crate2_d
-	diffusemap textures/moonbase_objects/crate2_d
+	qer_editorimage textures/moonbase_objects/crate2
+	diffusemap textures/moonbase_objects/crate2
 	normalmap textures/moonbase_objects/crate2_n
 	specularmap textures/moonbase_objects/crate2_s
 }
 
 
-ammocrate_d
+models/moonbase_objects/ammocrate
 {
 	q3map_nonplanar
 	q3map_forcemeta
@@ -167,7 +167,7 @@ ammocrate_d
 // begin hax filenames cause 3ds and blender cant play nice
 
 
-black_barrel
+models/moonbase_objects/black_barrel
 {
 	q3map_nonplanar
 	q3map_forcemeta
@@ -183,7 +183,7 @@ black_barrel
 }
 
 
-blue_barrel_
+models/moonbase_objects/blue_barrel
 {
 	q3map_nonplanar
 	q3map_forcemeta
@@ -199,7 +199,7 @@ blue_barrel_
 }
 
 
-green_barrel
+models/moonbase_objects/green_barrel
 {
 	q3map_nonplanar
 	q3map_forcemeta
@@ -215,7 +215,7 @@ green_barrel
 }
 
 
-red_barrel_d
+models/moonbase_objects/red_barrel
 {
 	q3map_nonplanar
 	q3map_forcemeta
@@ -231,15 +231,15 @@ red_barrel_d
 }
 
 
-rust_barrel_
+models/moonbase_objects/rust_barrel_
 {
 	q3map_nonplanar
 	q3map_forcemeta
 	q3map_shadeangle 60
-	qer_editorimage textures/moonbase_objects/rust_barrel_d
+	qer_editorimage textures/moonbase_objects/rust_barrel
 	{
 	stage diffusemap
-	map textures/moonbase_objects/rust_barrel_d
+	map textures/moonbase_objects/rust_barrel
 	rgbgen vertex
 	}
 	normalmap textures/moonbase_objects/barrel_med_bumps_n
@@ -247,7 +247,7 @@ rust_barrel_
 }
 
 
-shiny_barrel
+models/moonbase_objects/shiny_barrel
 {
 	q3map_nonplanar
 	q3map_forcemeta
@@ -255,7 +255,7 @@ shiny_barrel
 	qer_editorimage textures/moonbase_objects/shiny_barrel_d
 	{
 	stage diffusemap
-	map textures/moonbase_objects/shiny_barrel_d
+	map textures/moonbase_objects/shiny_barrel
 	rgbgen vertex
 	}
 	normalmap textures/moonbase_objects/barrel_med_bumps_n
@@ -263,7 +263,7 @@ shiny_barrel
 }
 
 
-yellow_barre
+models/moonbase_objects/yellow_barre
 {
 	q3map_nonplanar
 	q3map_forcemeta
@@ -278,30 +278,30 @@ yellow_barre
 	specularmap textures/moonbase_objects/barrel_med_spec_s
 }
 
-utilitylamp
+models/moonbase_objects/utilitylamp
 {
 	q3map_nonplanar
 	q3map_forcemeta
 	q3map_shadeangle 60
-	qer_editorimage textures/moonbase_objects/utilitylamp_d
+	qer_editorimage textures/moonbase_objects/utilitylamp
 	{
 	stage diffusemap
-	map textures/moonbase_objects/utilitylamp_d
+	map textures/moonbase_objects/utilitylamp
 	rgbgen vertex
 	}
 	glowmap textures/moonbase_objects/utilitylamp_g
 
 }
 
-utilitylamp_stand
+models/moonbase_objects/utilitylamp_stand
 {
 	q3map_nonplanar
 	q3map_forcemeta
 	q3map_shadeangle 60
-	qer_editorimage textures/moonbase_objects/utilitylamp_stand_d
+	qer_editorimage textures/moonbase_objects/utilitylamp_stand
 	{
 	stage diffusemap
-	map textures/moonbase_objects/utilitylamp_stand_d
+	map textures/moonbase_objects/utilitylamp_stand
 	rgbgen vertex
 	}
 

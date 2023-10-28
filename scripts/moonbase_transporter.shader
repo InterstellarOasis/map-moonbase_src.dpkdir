@@ -1,4 +1,5 @@
-basic_hull
+// looks unused
+models/moonbase_objects/basic_hull
 {
 	qer_editorimage textures/moonbase_transporter/basic_hull_d
 	q3map_nonplanar
@@ -9,7 +10,8 @@ basic_hull
 	specularmap textures/moonbase_transporter/basic_hull_s
 }
 
-cab_door
+// looks unused
+models/moonbase_objects/cab_door
 {
 	qer_editorimage textures/moonbase_transporter/cab_door_d
 	q3map_nonplanar
@@ -43,7 +45,8 @@ textures/moonbase_transporter/wheel_hub
 	specularmap textures/moonbase_transporter/wheel_hub_s
 }
 
-wheel_hub
+// looks unused
+models/moonbase_objects/wheel_hub
 {
 	qer_editorimage textures/moonbase_transporter/wheel_hub_d
 	q3map_nonplanar
@@ -54,8 +57,8 @@ wheel_hub
 	specularmap textures/moonbase_transporter/wheel_hub_s
 }
 
-
-tire_base
+// looks unused
+models/moonbase_objects/tire_base
 {
 	qer_editorimage textures/moonbase_transporter/tire_base_d
 	q3map_nonplanar
