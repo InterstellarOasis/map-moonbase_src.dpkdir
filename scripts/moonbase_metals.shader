@@ -13,6 +13,8 @@ shiny_metal
 	qer_editorimage textures/moonbase_metals/shiny_metal_d.png
 	q3map_forcemeta
 	q3map_nonplanar
+	q3map_shadeangle 60
+	cull none
 //	surfaceparm detail
 	{
 	stage diffusemap
@@ -37,6 +39,15 @@ textures/moonbase_metals/panel_1_basic
 
 
 textures/moonbase_metals/c_red
+{
+	qer_editorimage textures/moonbase_metals/c_red.png
+	cull none
+	diffusemap textures/moonbase_metals/c_red.png
+	normalmap textures/moonbase_metals/basic_normal.png
+	specularmap textures/moonbase_metals/basic_spec.png
+}
+
+c_red
 {
 	qer_editorimage textures/moonbase_metals/c_red.png
 	cull none

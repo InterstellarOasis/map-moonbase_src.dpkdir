@@ -1,4 +1,4 @@
-// for use in maps
+ // for use in maps
 textures/moonbase_glass/glass1
 {
 	qer_editorimage textures/moonbase_glass/glass1.png

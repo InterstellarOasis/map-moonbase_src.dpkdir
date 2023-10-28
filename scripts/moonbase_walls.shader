@@ -52,6 +52,14 @@ textures/moonbase_walls/ywall4_d
 
 
 
+textures/moonbase_walls/ywall3_d
+{
+	qer_editorimage textures/moonbase_walls/ywall3_d.png
+	cull none
+	diffusemap textures/moonbase_walls/ywall3_d.png
+	normalmap textures/moonbase_walls/ywall3_n.png
+	specularmap textures/moonbase_walls/ywall3_s.png
+}
 
 
 
@@ -59,37 +67,27 @@ textures/moonbase_walls/ywall1_d
 {
 	qer_editorimage textures/moonbase_walls/ywall1_d.png
 	cull none
-	diffusemap textures/moonbase_walls/ywall2_d.png
+	diffusemap textures/moonbase_walls/ywall1_d.png
 	normalmap textures/moonbase_walls/rgbywall1_n.png
 	specularmap textures/moonbase_walls/rgbywall1_s.png
 }
+
 textures/moonbase_walls/bwall1_d
 {
 	qer_editorimage textures/moonbase_walls/bwall1_d.png
 	cull none
 	diffusemap textures/moonbase_walls/bwall1_d.png
-	normalmap textures/moonbase_walls/rgbywall1_n.png
-	specularmap textures/moonbase_walls/rgbywall1_s.png
+	normalmap textures/moonbase_walls/bwall1_n.png
+	specularmap textures/moonbase_walls/bwall1_s.png
 }
 textures/moonbase_walls/gwall1_d
 {
-	qer_editorimage textures/moonbase_walls/bwall1_d.png
+	qer_editorimage textures/moonbase_walls/gwall1_d.png
 	cull none
-	diffusemap textures/moonbase_walls/bwall1_d.png
-	normalmap textures/moonbase_walls/rgbywall1_n.png
-	specularmap textures/moonbase_walls/rgbywall1_s.png
+	diffusemap textures/moonbase_walls/gwall1_d.png
+	normalmap textures/moonbase_walls/ywall2_n.png
+	specularmap textures/moonbase_walls/ywall2_s.png
 }
-textures/moonbase_walls/rwall1_d
-{
-	qer_editorimage textures/moonbase_walls/bwall1_d.png
-	cull none
-	diffusemap textures/moonbase_walls/bwall1_d.png
-	normalmap textures/moonbase_walls/rgbywall1_n.png
-	specularmap textures/moonbase_walls/rgbywall1_s.png
-}
-
-
-
 
 
 
@@ -98,8 +96,8 @@ textures/moonbase_walls/ywall2_d
 	qer_editorimage textures/moonbase_walls/ywall2_d.png
 	cull none
 	diffusemap textures/moonbase_walls/ywall2_d.png
-	normalmap textures/moonbase_walls/rgbywall1_n.png
-	specularmap textures/moonbase_walls/rgbywall1_s.png
+	normalmap textures/moonbase_walls/ywall2_n.png
+	specularmap textures/moonbase_walls/ywall2_s.png
 }
 textures/moonbase_walls/gwall2_d
 {
@@ -258,5 +256,91 @@ textures/moonbase_walls/panel1_d
 	specularmap textures/moonbase_walls/panel1_s.png
 }
 
+textures/moonbase_walls/lift_switch_d
+{
+	qer_editorimage textures/moonbase_walls/lift_switch_d.png
+	diffusemap textures/moonbase_walls/lift_switch_d.png
+	normalmap textures/moonbase_walls/lift_switch_n.png
+	specularmap textures/moonbase_walls/lift_switch_s.png
+	glowmap textures/moonbase_walls/lift_switch_g.png
+}
+
+
+textures/moonbase_walls/vent_d
+{
+	qer_editorimage textures/moonbase_walls/vent_d.png
+	cull none
+	diffusemap textures/moonbase_walls/vent_d.png
+	normalmap textures/moonbase_walls/vent_n.png
+	specularmap textures/moonbase_walls/vent_s.png
+}
+
+
+textures/moonbase_walls/plate_girder_01_d
+{
+	qer_editorimage textures/moonbase_walls/plate_girder_01_d.png
+	cull disable
+	surfaceparm trans
+	{
+	stage diffusemap
+	map textures/moonbase_walls/plate_girder_01_d.png
+	rgbgen identity
+	alphaFunc GE128
+	}
+	normalmap textures/moonbase_walls/plate_girder_01_n.tga
+	specularmap textures/moonbase_walls/plate_girder_01_s.tga
+}
+
+
+textures/moonbase_walls/plate_10_d
+{
+	qer_editorimage textures/moonbase_walls/plate_10_d.tga
+	cull disable
+	surfaceparm trans
+	{
+	stage diffusemap
+	map textures/moonbase_walls/plate_10_d.tga
+	rgbgen identity
+	alphaFunc GE128
+	}
+	normalmap textures/moonbase_walls/plate_10_n.tga
+	specularmap textures/moonbase_walls/plate_10_s.tga
+}
+
+
+
+textures/moonbase_walls/plate_11_d
+{
+	qer_editorimage textures/moonbase_walls/plate_11_d.tga
+	cull disable
+	surfaceparm trans
+	{
+	map $lightmap
+	rgbgen identity
+	}
+	{
+	stage diffusemap
+	map textures/moonbase_walls/plate_11_d.tga
+	alphaFunc GE128
+	}
+	normalmap textures/moonbase_walls/plate_10_n.tga
+	specularmap textures/moonbase_walls/plate_10_s.tga
+}
+
+
+
+textures/moonbase_walls/plate_15_d
+{
+	qer_editorimage textures/moonbase_walls/plate_15_d.tga
+	cull disable
+	surfaceparm trans
+	{
+	map $lightmap
+	rgbgen identity
+	}
+	diffusemap textures/moonbase_walls/plate_15_d.tga
+	normalmap textures/moonbase_walls/plate_15_n.tga
+	specularmap textures/moonbase_walls/plate_15_s.tga
+}
 
 

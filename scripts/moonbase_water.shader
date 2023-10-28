@@ -84,7 +84,7 @@ water
 	cull none
 	qer_trans 0.5
 //	deformVertexes wave 128	   sin	   0         1         0.05      0.3
-	q3map_surfacelight 200
+	q3map_surfacelight 100
 	{
 		stage diffusemap  
         	map textures/moonbase_water/water.png
@@ -119,7 +119,7 @@ textures/moonbase_water/water_bluish
 	surfaceparm water
 	cull disable
 	qer_trans 0.5
-	q3map_surfacelight 500
+	q3map_surfacelight 100
 	{
 		stage diffusemap  
         	map textures/moonbase_water/water_bluish.png

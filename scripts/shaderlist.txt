@@ -10,6 +10,8 @@ moonbase_base
 moonbase_objects
 moonbase_walls
 moonbase_floors
+moonbase_blood
+
 common
 
 

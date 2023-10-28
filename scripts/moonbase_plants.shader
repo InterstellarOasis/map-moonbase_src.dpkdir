@@ -8,6 +8,7 @@ palm01
 	surfaceparm detail
 	qer_trans 0.5
 	q3map_forcemeta
+	q3map_lightmapMergable
 	q3map_nonplanar
 	deformVertexes wave 128	   sin	   0         0.5         0.05      0.3
 	{
@@ -15,19 +16,20 @@ palm01
 		map textures/moonbase_plants/palm01.png
 		tcmod stretch  sin      1       0.05   	     0.05    0.05
 		rgbgen vertex
+	
 		alphaFunc GE128
 	}
-//	{
-//		stage normalmap
-//		map textures/moonbase_plants/palm01_n.png
-//		tcmod stretch  sin      1       0.05   	     0.05    0.05
-//	}
-//	{
-//		stage specularmap
-//		map textures/moonbase_plants/palm01_s.png
-//		tcmod stretch  sin      1       0.05   	     0.05    0.05
-//		depthwrite
-//	}
+	{
+		stage normalmap
+		map textures/moonbase_plants/palm01_n.png
+		tcmod stretch  sin      1       0.05   	     0.05    0.05
+	}
+	{
+		stage specularmap
+		map textures/moonbase_plants/palm01_s.png
+		tcmod stretch  sin      1       0.05   	     0.05    0.05
+		depthwrite
+	}
 }
 
 small_01
@@ -39,6 +41,7 @@ small_01
 	surfaceparm detail
 	q3map_forcemeta
 	q3map_nonplanar
+	q3map_lightmapMergable
 	deformVertexes wave 128	   sin	   0         0.5         0.05      0.2
 	{
 		stage diffusemap
@@ -61,6 +64,7 @@ fern
 	q3map_forcemeta
 	q3map_nonplanar
 	surfaceparm detail
+	q3map_lightmapMergable
 	deformVertexes wave 128	   sin	   0         0.5         0.05      0.3
 	{
 		stage diffusemap
@@ -91,14 +95,15 @@ bark01
 	cull disable
 	q3map_forcemeta
 	q3map_nonplanar
+	q3map_lightmapMergable
 	diffusemap textures/moonbase_plants/bark01.png
-//	normalmap textures/moonbase_plants/bark01_n.png
-//	specularmap textures/moonbase_plants/bark02_s.png
+	normalmap textures/moonbase_plants/bark01_n.png
+	specularmap textures/moonbase_plants/bark02_s.png
 
 }
 
 
-// working tree 1
+// working tree_2
 bark02
 {
 	qer_editorimage textures/moonbase_plants/bark02.png
@@ -107,18 +112,19 @@ bark02
 	surfaceparm detail
 	q3map_nonplanar
 	q3map_clipmodel
+	q3map_lightmapMergable
 	{
 		stage diffusemap
 		map textures/moonbase_plants/bark02.png
 		rgbgen vertex
 	}
-//	normalmap textures/moonbase_plants/bark02_n.png
+	normalmap textures/moonbase_plants/bark02_n.png
 //	specularmap textures/moonbase_plants/bark02_s.png
 
 }
 
 
-//working
+//working bark for tree_3
 bark03
 {
 	qer_editorimage textures/moonbase_plants/bark03.png
@@ -126,13 +132,15 @@ bark03
 	q3map_clipmodel
 	surfaceparm detail
 	q3map_forcemeta
+	q3map_lightmapMergable
 	q3map_nonplanar
 	{
 		stage diffusemap
 		map textures/moonbase_plants/bark03.png	
 		rgbgen vertex
+//		rgbgen lightingDiffuse
 	}
-//	normalmap textures/moonbase_plants/bark03_n.png
+	normalmap textures/moonbase_plants/bark03_n.png
 //	specularmap textures/moonbase_plants/bark03_s.png
 
 
@@ -149,6 +157,7 @@ leaves
 	cull none
 	qer_trans 0.5
 	q3map_forcemeta
+	q3map_lightmapMergable
 	q3map_nonplanar
 	deformVertexes wave 128	   sin	   0         0.5         0.05      0.3
 	{
@@ -156,24 +165,25 @@ leaves
 		map textures/moonbase_plants/leaves.png
 		tcmod stretch  sin      1       0.05   	     0.05    0.03
 		rgbgen vertex
+//		rgbgen lightingDiffuse
 		alphaFunc GE128
 	}
-//	{
-//		stage normalmap
-//		map textures/moonbase_plants/leaves_n.png
-//		tcmod stretch  sin      1       0.05   	     0.05    0.03
-//	}
+	{
+		stage normalmap
+		map textures/moonbase_plants/leaves_n.png
+		tcmod stretch  sin      1       0.05   	     0.05    0.03
+	}
 
 //	{
 //		stage specularmap
 //		map textures/moonbase_plants/leaves_s.png
 //		tcmod stretch  sin      1       0.05   	     0.05    0.03
 //		depthwrite
-//	}
+///	}
 }
 
 
-// tree 2 big fluffy leaves
+// tree_2 big fluffy leaves
 leaf01
 {
 	qer_editorimage textures/moonbase_plants/leaf01.png
@@ -184,19 +194,21 @@ leaf01
 	qer_trans 0.5
 	q3map_forcemeta
 	q3map_nonplanar
+	q3map_lightmapMergable
 	deformVertexes wave 128	   sin	   0         0.5         0.05      0.3
 	{
 		stage diffusemap
 		map textures/moonbase_plants/leaf01.png
 		tcmod stretch  sin      1       0.05   	     0.05    0.05
 		rgbgen vertex
+//		rgbgen lightingDiffuse
 		alphaFunc GE128
 	}
-//	{
-//		stage normalmap
-//		map textures/moonbase_plants/leaf01_n.png
-//		tcmod stretch  sin      1       0.05   	     0.05    0.05
-//	}
+	{
+		stage normalmap
+		map textures/moonbase_plants/leaf01_n.png
+		tcmod stretch  sin      1       0.05   	     0.05    0.05
+	}
 
 //	{
 //		stage specularmap
@@ -216,6 +228,7 @@ leaf
 	cull disable
 	qer_trans 0.5
 	q3map_forcemeta
+	q3map_lightmapMergable
 	q3map_nonplanar
 	deformVertexes wave 128	   sin	   0         0.5         0.05      0.3
 	{
@@ -223,14 +236,14 @@ leaf
 		map textures/moonbase_plants/leaf.png
 		tcmod stretch  sin      1       0.05   	     0.05    0.04
 		rgbgen vertex
+//		rgbgen lightingDiffuse
 		alphaFunc GE128
 	}
-//	{
-//		stage normalmap
-//		map textures/moonbase_plants/leaf_n.png
-//		tcmod stretch  sin      1       0.05   	     0.05    0.04
-//	}
-
+	{
+		stage normalmap
+		map textures/moonbase_plants/leaf_n.png
+		tcmod stretch  sin      1       0.05   	     0.05    0.04
+	}
 //	{
 //		stage specularmap
 //		map textures/moonbase_plants/leaf_s.png
@@ -251,6 +264,7 @@ dracio
 	cull disable
 	q3map_forcemeta
 	q3map_nonplanar
+	q3map_lightmapMergable
 	deformVertexes wave 128	   sin	   0         0.5         0.05      0.3
 	{
 		stage diffusemap
@@ -284,6 +298,7 @@ grass
 	cull disable
 	qer_trans 0.5
 	q3map_forcemeta
+	q3map_lightmapMergable
 	q3map_nonplanar
 	deformVertexes wave 128	   sin	   0         0.5         0.05      0.2
 	{
