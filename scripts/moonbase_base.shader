@@ -1,6 +1,6 @@
 textures/moonbase_base/moon_sky
 {
-	qer_editorimage textures/env/moon.png
+	qer_editorimage textures/env/moon
 
 	surfaceparm noimpact
 	surfaceparm nolightmap
@@ -18,21 +18,21 @@ textures/moonbase_base/moon_sky
 //simple white light bulb
 textures/moonbase_base/white_l
 {
-	qer_editorimage textures/moonbase_base/white_l.png
-	q3map_lightimage textures/moonbase_base/white_l.png
+	qer_editorimage textures/moonbase_base/white_l
+	q3map_lightimage textures/moonbase_base/white_l
 	q3map_surfacelight 10000
-	diffusemap textures/moonbase_base/white_l.png
-	glowmap textures/moonbase_base/white_l.png
+	diffusemap textures/moonbase_base/white_l
+	glowmap textures/moonbase_base/white_l
 }
 
 //one for models
 white_l
 {
-	qer_editorimage textures/moonbase_base/white_l.png
-	q3map_lightimage textures/moonbase_base/white_l.png
+	qer_editorimage textures/moonbase_base/white_l
+	q3map_lightimage textures/moonbase_base/white_l
 	q3map_surfacelight 200
 	q3map_lightRGB 0.5 0.5 0.5
-	diffusemap textures/moonbase_base/white_l.png
-	glowmap textures/moonbase_base/white_l.png
+	diffusemap textures/moonbase_base/white_l
+	glowmap textures/moonbase_base/white_l
 }
 

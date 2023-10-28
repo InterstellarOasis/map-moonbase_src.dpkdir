@@ -1,6 +1,6 @@
 textures/moonbase_sfx/bubbles
 {
-	qer_editorimage textures/moonbase_sfx/bubble.png
+	qer_editorimage textures/moonbase_sfx/bubble
 	qer_trans 0.5
 	deformVertexes autoSprite
 	sort underwater
@@ -9,7 +9,7 @@ textures/moonbase_sfx/bubbles
 	surfaceparm nolightmap
 	cull none
        {		 
-	map textures/moonbase_sfx/bubble.png
+	map textures/moonbase_sfx/bubble
 	blendFunc blend
 	tcmod scroll 0 0.5
 	rgbGen identity
@@ -18,7 +18,7 @@ textures/moonbase_sfx/bubbles
 
 textures/moonbase_sfx/fire1
 {
-	qer_editorimage textures/moonbase_sfx/fire1.png
+	qer_editorimage textures/moonbase_sfx/fire1
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	surfaceparm trans
@@ -26,13 +26,13 @@ textures/moonbase_sfx/fire1
 	cull none
 	q3map_surfacelight 500
 	{
-		animMap 10 textures/moonbase_sfx/fire1.png textures/moonbase_sfx/fire2.png textures/moonbase_sfx/fire3.png textures/moonbase_sfx/fire4.png textures/moonbase_sfx/fire5.png textures/moonbase_sfx/fire6.png textures/moonbase_sfx/fire7.png
+		animMap 10 textures/moonbase_sfx/fire1 textures/moonbase_sfx/fire2 textures/moonbase_sfx/fire3 textures/moonbase_sfx/fire4 textures/moonbase_sfx/fire5 textures/moonbase_sfx/fire6 textures/moonbase_sfx/fire7
 		blendFunc GL_ONE GL_ONE
 		rgbGen wave inverseSawtooth 0 1 0 10
 		
 	}
 	{
-		animMap 10 textures/moonbase_sfx/fire2.png textures/moonbase_sfx/fire3.png textures/moonbase_sfx/fire4.png textures/moonbase_sfx/fire5.png textures/moonbase_sfx/fire6.png textures/moonbase_sfx/fire7.png textures/moonbase_sfx/fire1.png
+		animMap 10 textures/moonbase_sfx/fire2 textures/moonbase_sfx/fire3 textures/moonbase_sfx/fire4 textures/moonbase_sfx/fire5 textures/moonbase_sfx/fire6 textures/moonbase_sfx/fire7 textures/moonbase_sfx/fire1
 		blendFunc GL_ONE GL_ONE
 		rgbGen wave sawtooth 0 1 0 10
 		depthwrite

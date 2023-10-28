@@ -1,13 +1,13 @@
  // for use in maps
 textures/moonbase_glass/glass1
 {
-	qer_editorimage textures/moonbase_glass/glass1.png
+	qer_editorimage textures/moonbase_glass/glass1
 	surfaceparm trans
 	cull none
 	qer_trans 0.5
 	{
 		stage diffusemap
-		map textures/moonbase_glass/glass1.png
+		map textures/moonbase_glass/glass1
 		blendfunc blend
 		alphagen const 0.4
 	}
@@ -24,7 +24,7 @@ textures/moonbase_glass/glass1
 // and a version for the models
 glass1
 {
-	qer_editorimage textures/moonbase_glass/glass1.png
+	qer_editorimage textures/moonbase_glass/glass1
 	surfaceparm trans
 	cull none
 //	q3map_clipmodel
@@ -33,7 +33,7 @@ glass1
 	qer_trans 0.5
 	{
 		stage diffusemap
-		map textures/moonbase_glass/glass1.png
+		map textures/moonbase_glass/glass1
 		blendfunc blend
 		rgbgen vertex
 		alphagen const 0.4

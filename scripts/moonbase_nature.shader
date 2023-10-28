@@ -61,23 +61,23 @@ sand
 // this is the dome grass floor
 grass1
 {
-	qer_editorimage textures/moonbase_nature/grass1_d.png
+	qer_editorimage textures/moonbase_nature/grass1_d
 	cull disable
 	q3map_forcemeta
 	surfaceparm detail
 	q3map_nonplanar
-	diffusemap textures/moonbase_nature/grass1_d.png
-	normalmap textures/moonbase_nature/grass1_n.png
-	specularmap textures/moonbase_nature/grass1_s.png
+	diffusemap textures/moonbase_nature/grass1_d
+	normalmap textures/moonbase_nature/grass1_n
+	specularmap textures/moonbase_nature/grass1_s
 }
 
 textures/moonbase_nature/grass1
 {
-	qer_editorimage textures/moonbase_nature/grass1_d.png
+	qer_editorimage textures/moonbase_nature/grass1_d
 	cull disable
-	diffusemap textures/moonbase_nature/grass1_d.png
-	normalmap textures/moonbase_nature/grass1_n.png
-	specularmap textures/moonbase_nature/grass1_s.png
+	diffusemap textures/moonbase_nature/grass1_d
+	normalmap textures/moonbase_nature/grass1_n
+	specularmap textures/moonbase_nature/grass1_s
 }
 
 

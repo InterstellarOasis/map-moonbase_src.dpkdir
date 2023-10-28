@@ -1,6 +1,6 @@
 textures/moonbase_water/mist_shader
 {
-	qer_editorimage textures/moonbase_water/mist.png
+	qer_editorimage textures/moonbase_water/mist
 	qer_trans 0.5
 	surfaceparm trans
  	surfaceparm noimpact
@@ -10,7 +10,7 @@ textures/moonbase_water/mist_shader
 	entityMergable
 	cull none
 	{
-		map textures/moonbase_water/mist.png
+		map textures/moonbase_water/mist
 		rgbGen		const ( 1 1 1 )
 		blendfunc blend
 		alphaGen	vertex
@@ -20,7 +20,7 @@ textures/moonbase_water/mist_shader
 
 textures/moonbase_water/waterdrop_shader
 {
-	qer_editorimage textures/moonbase_water/waterdrop.png
+	qer_editorimage textures/moonbase_water/waterdrop
 	qer_trans 0.5
  	surfaceparm noimpact
 	surfaceparm detail
@@ -28,7 +28,7 @@ textures/moonbase_water/waterdrop_shader
 	surfaceparm nomarks
 	surfaceparm trans
 	{
-	map textures/moonbase_water/waterdrop.png
+	map textures/moonbase_water/waterdrop
 	blendfunc blend
 	rgbgen identity
 	}
@@ -36,7 +36,7 @@ textures/moonbase_water/waterdrop_shader
 
 textures/moonbase_water/water
 {
-	qer_editorimage textures/moonbase_water/water.png
+	qer_editorimage textures/moonbase_water/water
 	qer_trans 0.5
 	sort water
 	surfaceparm nomarks
@@ -49,7 +49,7 @@ textures/moonbase_water/water
 	q3map_surfacelight 50
 	{
 		stage diffusemap  
-        	map textures/moonbase_water/water.png
+        	map textures/moonbase_water/water
 	        rgbGen identity
 		blendfunc blend
 		tcmod stretch sin  1 0.01 1 0.4
@@ -57,7 +57,7 @@ textures/moonbase_water/water
 	}
 	{
 		stage normalmap  
-		map textures/moonbase_water/water_n.png
+		map textures/moonbase_water/water_n
 		tcmod stretch sin  1 0.01 1 0.4
 	}
 	{
@@ -72,7 +72,7 @@ textures/moonbase_water/water
 
 water
 {
-	qer_editorimage textures/moonbase_water/water.png
+	qer_editorimage textures/moonbase_water/water
 	qer_trans 0.5
 	sort water
 //	surfaceparm nomarks
@@ -87,7 +87,7 @@ water
 	q3map_surfacelight 100
 	{
 		stage diffusemap  
-        	map textures/moonbase_water/water.png
+        	map textures/moonbase_water/water
 	        rgbGen identity
 		blendfunc blend
 		tcmod stretch sin  1 0.01 1 0.4
@@ -95,7 +95,7 @@ water
 	}
 	{
 		stage normalmap  
-		map textures/moonbase_water/water_n.png
+		map textures/moonbase_water/water_n
 		tcmod stretch sin  1 0.01 1 0.4
 	}
 	{
@@ -110,7 +110,7 @@ water
 // this works
 textures/moonbase_water/water_bluish
 {
-	qer_editorimage textures/moonbase_water/water_bluish.png
+	qer_editorimage textures/moonbase_water/water_bluish
 	qer_trans 0.5
 	surfaceparm nomarks
 	sort water
@@ -122,7 +122,7 @@ textures/moonbase_water/water_bluish
 	q3map_surfacelight 100
 	{
 		stage diffusemap  
-        	map textures/moonbase_water/water_bluish.png
+        	map textures/moonbase_water/water_bluish
 	        rgbGen identity
 		blendfunc add
 		alphagen const 0.3
@@ -137,7 +137,7 @@ textures/moonbase_water/water_bluish
 }	
 water_bluish
 {
-	qer_editorimage textures/moonbase_water/water_bluish.png
+	qer_editorimage textures/moonbase_water/water_bluish
 	qer_trans 0.5
 	surfaceparm detail
 	surfaceparm nomarks
@@ -149,7 +149,7 @@ water_bluish
 	q3map_surfacelight 500
 	{
 		stage diffusemap  
-        	map textures/moonbase_water/water_bluish.png
+        	map textures/moonbase_water/water_bluish
 	        rgbGen identity
 		blendfunc add
 		alphagen const 0.3
@@ -166,7 +166,7 @@ water_bluish
 
 textures/moonbase_water/waterfall
 {
- 	qer_editorimage textures/moonbase_water/waterfall.tga
+ 	qer_editorimage textures/moonbase_water/waterfall
 	qer_trans 0.5
 	qer_nocarve
 	q3map_globaltexture
@@ -175,7 +175,7 @@ textures/moonbase_water/waterfall
 	q3map_surfacelight 600
 	cull disable
 	{
-		map textures/moonbase_water/water_bluish.png
+		map textures/moonbase_water/water_bluish
 		tcmod scroll 0 -0.3
 		tcmod stretch  sin 1 0.08 0.08 0.08
 		rgbgen identity
