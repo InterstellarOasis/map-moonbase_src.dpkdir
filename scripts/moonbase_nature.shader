@@ -1,3 +1,13 @@
+// workaround
+models/biodome/fclip {
+	qer_editorImage textures/common_src/fullclip_p
+	qer_trans .4
+	q3map_clipmodel
+	surfaceparm nodraw
+	surfaceparm playerclip
+	surfaceparm trans
+}
+
 // the all important moonrock - keep it simple.
 textures/moonbase_nature/moonrock
 {
@@ -21,7 +31,7 @@ moonrock
 	{
 	stage diffusemap
 	map textures/moonbase_nature/moonrock.jpg
-	rgbgen vertex
+		rgbgen vertex
 	}
 	normalmap textures/moonbase_nature/moonrock_n.jpg
 	specularmap textures/moonbase_nature/moonrock_s.jpg

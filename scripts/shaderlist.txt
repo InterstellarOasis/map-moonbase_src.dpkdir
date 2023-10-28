@@ -5,13 +5,8 @@ moonbase_glass
 moonbase_sfx
 moonbase_nature
 moonbase_water
-moonbase_common
 moonbase_base
 moonbase_objects
 moonbase_walls
 moonbase_floors
 moonbase_blood
-
-common
-
-

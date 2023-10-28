@@ -1,4 +1,14 @@
-goldfish
+// workaround
+models/moonbase_objects/fclip {
+	qer_editorImage textures/common_src/playerclip_p
+	qer_trans .4
+	q3map_clipmodel
+	surfaceparm nodraw
+	surfaceparm playerclip
+	surfaceparm trans
+}
+
+models/moonbase_objects/goldfish
 {
 	qer_editorimage textures/moonbase_objects/goldfish.png
 	q3map_forcemeta
@@ -18,11 +28,11 @@ clownfishclo
 
 portal
 {
-	qer_editorimage textures/moonbase_common/portal.png
+	qer_editorimage textures/common/portal.png
 	surfaceparm nolightmap
 	portal 2048
 	{
-		map textures/moonbase_common/portal.png
+		map textures/common/portal.png
 		blendfunc blend
 		depthWrite
 
@@ -115,7 +125,7 @@ plasticb
 	{
 	stage diffusemap
 	map textures/moonbase_objects/plasticb_d.png
-	rgbgen vertex
+		rgbgen vertex
 	}
 	normalmap textures/moonbase_objects/plasticb_n.png
 	specularmap textures/moonbase_objects/plasticb_s.png
@@ -198,7 +208,7 @@ green_barrel
 	{
 	stage diffusemap
 	map textures/moonbase_objects/green_barrel_d.png
-	rgbgen vertex
+		rgbgen vertex
 	}
 	normalmap textures/moonbase_objects/barrel_med_bumps_n.png
 	specularmap textures/moonbase_objects/barrel_med_spec_s.png
@@ -214,7 +224,7 @@ red_barrel_d
 	{
 	stage diffusemap
 	map textures/moonbase_objects/red_barrel_d.png
-	rgbgen vertex
+		rgbgen vertex
 	}
 	normalmap textures/moonbase_objects/barrel_med_bumps_n.png
 	specularmap textures/moonbase_objects/barrel_med_spec_s.png
@@ -230,7 +240,7 @@ rust_barrel_
 	{
 	stage diffusemap
 	map textures/moonbase_objects/rust_barrel_d.png
-	rgbgen vertex
+		rgbgen vertex
 	}
 	normalmap textures/moonbase_objects/barrel_med_bumps_n.png
 	specularmap textures/moonbase_objects/barrel_med_spec_s.png
@@ -246,7 +256,7 @@ shiny_barrel
 	{
 	stage diffusemap
 	map textures/moonbase_objects/shiny_barrel_d.png
-	rgbgen vertex
+		rgbgen vertex
 	}
 	normalmap textures/moonbase_objects/barrel_med_bumps_n.png
 	specularmap textures/moonbase_objects/barrel_med_spec_s.png
@@ -262,7 +272,7 @@ yellow_barre
 	{
 	stage diffusemap
 	map textures/moonbase_objects/yellow_barrel_d.png
-	rgbgen vertex
+		rgbgen vertex
 	}
 	normalmap textures/moonbase_objects/barrel_med_bumps_n.png
 	specularmap textures/moonbase_objects/barrel_med_spec_s.png
@@ -277,7 +287,7 @@ utilitylamp
 	{
 	stage diffusemap
 	map textures/moonbase_objects/utilitylamp_d.png
-	rgbgen vertex
+		rgbgen vertex
 	}
 	glowmap textures/moonbase_objects/utilitylamp_g.png
 
@@ -292,7 +302,7 @@ utilitylamp_stand
 	{
 	stage diffusemap
 	map textures/moonbase_objects/utilitylamp_stand_d.png
-	rgbgen vertex
+		rgbgen vertex
 	}
 
 
