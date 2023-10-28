@@ -12,16 +12,16 @@ models/biodome/fclip {
 textures/moonbase_nature/moonrock
 {
 	cull none
-	qer_editorimage textures/moonbase_nature/moonrock.jpg
-	diffusemap textures/moonbase_nature/moonrock.jpg
-	normalmap textures/moonbase_nature/moonrock_n.jpg
-	specularmap textures/moonbase_nature/moonrock_s.jpg
+	qer_editorimage textures/moonbase_nature/moonrock
+	diffusemap textures/moonbase_nature/moonrock
+	normalmap textures/moonbase_nature/moonrock_n
+	specularmap textures/moonbase_nature/moonrock_s
 }
 
 models/biodome/moonrock
 {
 	cull none
-	qer_editorimage textures/moonbase_nature/moonrock.jpg
+	qer_editorimage textures/moonbase_nature/moonrock
 	q3map_forceMeta
 	surfaceparm detail
 //	q3map_clipmodel
@@ -30,11 +30,11 @@ models/biodome/moonrock
 
 	{
 	stage diffusemap
-	map textures/moonbase_nature/moonrock.jpg
+	map textures/moonbase_nature/moonrock
 	rgbgen vertex
 	}
-	normalmap textures/moonbase_nature/moonrock_n.jpg
-	specularmap textures/moonbase_nature/moonrock_s.jpg
+	normalmap textures/moonbase_nature/moonrock_n
+	specularmap textures/moonbase_nature/moonrock_s
 
 }
 
@@ -47,14 +47,14 @@ models/biodome/sand
 	q3map_clipmodel
 	q3map_nonplanar
 	surfaceparm detail
-	qer_editorimage textures/moonbase_nature/sand.jpg
+	qer_editorimage textures/moonbase_nature/sand
 	{
 		stage diffusemap
-		map textures/moonbase_nature/sand.jpg
+		map textures/moonbase_nature/sand
 		rgbgen vertex
 	}
-	normalmap textures/moonbase_nature/sand_n.jpg
-	specularmap textures/moonbase_nature/sand_s.jpg
+	normalmap textures/moonbase_nature/sand_n
+	specularmap textures/moonbase_nature/sand_s
 
 }
 
@@ -83,7 +83,7 @@ textures/moonbase_nature/grass1_d
 
 models/moonbase_objects/rock1
 {
-	qer_editorimage textures/moonbase_nature/rock1_d.jpg
+	qer_editorimage textures/moonbase_nature/rock1_d
 	cull none
 	q3map_forcemeta
 	q3map_clipmodel
@@ -91,16 +91,16 @@ models/moonbase_objects/rock1
 	surfaceparm detail
 	{
 		stage diffusemap
-		map textures/moonbase_nature/rock1_d.jpg
+		map textures/moonbase_nature/rock1_d
 		rgbgen vertex
 	}
-	normalmap textures/moonbase_nature/rock1_n.jpg
-	specularmap textures/moonbase_nature/rock1_s.jpg
+	normalmap textures/moonbase_nature/rock1_n
+	specularmap textures/moonbase_nature/rock1_s
 }
 
 models/moonbase_objects/rock2
 {
-	qer_editorimage textures/moonbase_nature/rock2_d.jpg
+	qer_editorimage textures/moonbase_nature/rock2_d
 	cull none
 	surfaceparm detail
 	q3map_forcemeta
@@ -108,16 +108,16 @@ models/moonbase_objects/rock2
 	q3map_nonplanar
 	{
 		stage diffusemap
-		map textures/moonbase_nature/rock2_d.jpg
+		map textures/moonbase_nature/rock2_d
 		rgbgen vertex
 	}
-	normalmap textures/moonbase_nature/rock2_n.jpg
-	specularmap textures/moonbase_nature/rock2_s.jpg
+	normalmap textures/moonbase_nature/rock2_n
+	specularmap textures/moonbase_nature/rock2_s
 }
 
 models/moonbase_objects/rock3
 {
-	qer_editorimage textures/moonbase_nature/rock3_d.jpg
+	qer_editorimage textures/moonbase_nature/rock3_d
 	cull none
 	surfaceparm detail
 	q3map_forcemeta
@@ -125,11 +125,11 @@ models/moonbase_objects/rock3
 	q3map_nonplanar
 	{
 		stage diffusemap
-		map textures/moonbase_nature/rock3_d.jpg
+		map textures/moonbase_nature/rock3_d
 		rgbgen vertex
 	}
-	normalmap textures/moonbase_nature/rock3_n.jpg
-	specularmap textures/moonbase_nature/rock3_s.jpg
+	normalmap textures/moonbase_nature/rock3_n
+	specularmap textures/moonbase_nature/rock3_s
 }
 
 
