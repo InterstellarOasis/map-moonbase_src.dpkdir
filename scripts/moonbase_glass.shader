@@ -6,19 +6,10 @@ textures/moonbase_glass/glass1
 	cull none
 	qer_trans 0.5
 	{
-		stage diffusemap
-		map textures/moonbase_glass/glass1
+		diffuseMap textures/moonbase_glass/glass1
 		blendfunc blend
 		alphagen const 0.4
 	}
-//	{
-//		tcgen lightmap
-//		map $lightmap
-//		rgbgen identity
-//		blendfunc filter
-//		depthfunc equal
-//		depthwrite
-//	}
 }
 
 // and a version for the models
@@ -32,19 +23,11 @@ models/moonbase_objects/glass1
 	q3map_nonplanar
 	qer_trans 0.5
 	{
-		stage diffusemap
-		map textures/moonbase_glass/glass1
+		diffuseMap textures/moonbase_glass/glass1
 		blendfunc blend
 		rgbgen vertex
 		alphagen const 0.4
 	}
-//	{
-//		tcgen lightmap
-//		map $lightmap
-//		rgbgen identity
-//		blendfunc filter
-//		depthwrite
-//	}
 }
 
 models/biodome/glass1
@@ -57,18 +40,9 @@ models/biodome/glass1
 	q3map_nonplanar
 	qer_trans 0.5
 	{
-		stage diffusemap
-		map textures/moonbase_glass/glass1
+		diffuseMap textures/moonbase_glass/glass1
 		blendfunc blend
 		rgbgen vertex
 		alphagen const 0.4
 	}
-//	{
-//		tcgen lightmap
-//		map $lightmap
-//		rgbgen identity
-//		blendfunc filter
-//		depthwrite
-//	}
 }
-

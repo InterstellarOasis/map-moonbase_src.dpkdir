@@ -21,8 +21,10 @@ textures/moonbase_base/white_l
 	qer_editorimage textures/moonbase_base/white_l
 	q3map_lightimage textures/moonbase_base/white_l
 	q3map_surfacelight 10000
-	diffusemap textures/moonbase_base/white_l
-	glowmap textures/moonbase_base/white_l
+	{
+		diffuseMap textures/moonbase_base/white_l
+		glowMap textures/moonbase_base/white_l
+	}
 }
 
 //one for models
@@ -32,7 +34,8 @@ models/moonbase_objects/white_l
 	q3map_lightimage textures/moonbase_base/white_l
 	q3map_surfacelight 200
 	q3map_lightRGB 0.5 0.5 0.5
-	diffusemap textures/moonbase_base/white_l
-	glowmap textures/moonbase_base/white_l
+	{
+		diffuseMap textures/moonbase_base/white_l
+		glowMap textures/moonbase_base/white_l
+	}
 }
-

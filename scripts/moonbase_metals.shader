@@ -1,12 +1,12 @@
-
 textures/moonbase_metals/shiny_metal
 {
 	qer_editorimage textures/moonbase_metals/shiny_metal_d
-	diffusemap textures/moonbase_metals/shiny_metal_d
-	normalmap textures/moonbase_metals/basic_normal
-	specularmap textures/moonbase_metals/basic_spec
+	{
+		diffuseMap textures/moonbase_metals/shiny_metal_d
+		normalMap textures/moonbase_metals/basic_normal
+		specularMap textures/moonbase_metals/basic_spec
+	}
 }
-
 
 models/biodome/shiny_metal
 {
@@ -17,14 +17,11 @@ models/biodome/shiny_metal
 	cull none
 //	surfaceparm detail
 	{
-	stage diffusemap
-	map textures/moonbase_metals/shiny_metal_d
-	rgbgen vertex
+		diffuseMap textures/moonbase_metals/shiny_metal_d
+		normalMap textures/moonbase_metals/basic_normal
+		specularMap textures/moonbase_metals/basic_spec
+		rgbgen vertex
 	}
-	diffusemap textures/moonbase_metals/shiny_metal_d
-	normalmap textures/moonbase_metals/basic_normal
-	specularmap textures/moonbase_metals/basic_spec
-
 }
 
 models/moonbase_objects/shiny_metal
@@ -36,43 +33,44 @@ models/moonbase_objects/shiny_metal
 	cull none
 //	surfaceparm detail
 	{
-	stage diffusemap
-	map textures/moonbase_metals/shiny_metal_d
-	rgbgen vertex
+		diffuseMap textures/moonbase_metals/shiny_metal_d
+		normalMap textures/moonbase_metals/basic_normal
+		specularMap textures/moonbase_metals/basic_spec
+		rgbgen vertex
 	}
-	diffusemap textures/moonbase_metals/shiny_metal_d
-	normalmap textures/moonbase_metals/basic_normal
-	specularmap textures/moonbase_metals/basic_spec
-
 }
-
 
 textures/moonbase_metals/panel_1_basic
 {
 	qer_editorimage textures/moonbase_metals/panel_1_basic_d
 	cull none
-	diffusemap textures/moonbase_metals/panel_1_basic_d
-	normalmap textures/moonbase_metals/panel_1_basic_n
-	specularmap textures/moonbase_metals/panel_1_basic_s
+	{
+		diffuseMap textures/moonbase_metals/panel_1_basic_d
+		normalMap textures/moonbase_metals/panel_1_basic_n
+		specularMap textures/moonbase_metals/panel_1_basic_s
+	}
 }
-
 
 textures/moonbase_metals/c_red
 {
 	qer_editorimage textures/moonbase_metals/c_red
 	cull none
-	diffusemap textures/moonbase_metals/c_red
-	normalmap textures/moonbase_metals/basic_normal
-	specularmap textures/moonbase_metals/basic_spec
+	{
+		diffuseMap textures/moonbase_metals/c_red
+		normalMap textures/moonbase_metals/basic_normal
+		specularMap textures/moonbase_metals/basic_spec
+	}
 }
 
 models/moonbase_objects/c_red
 {
 	qer_editorimage textures/moonbase_metals/c_red
 	cull none
-	diffusemap textures/moonbase_metals/c_red
-	normalmap textures/moonbase_metals/basic_normal
-	specularmap textures/moonbase_metals/basic_spec
+	{
+		diffuseMap textures/moonbase_metals/c_red
+		normalMap textures/moonbase_metals/basic_normal
+		specularMap textures/moonbase_metals/basic_spec
+	}
 }
 
 textures/moonbase_metals/c_white
@@ -80,11 +78,12 @@ textures/moonbase_metals/c_white
 	qer_editorimage textures/moonbase_metals/c_white
 	cull none
 	q3map_surfacelight 3000
-	diffusemap textures/moonbase_metals/c_white
-	normalmap textures/moonbase_metals/basic_normal
-	specularmap textures/moonbase_metals/basic_spec
+	{
+		diffuseMap textures/moonbase_metals/c_white
+		normalMap textures/moonbase_metals/basic_normal
+		specularMap textures/moonbase_metals/basic_spec
+	}
 }
-
 
 models/moonbase_objects/c_white
 {
@@ -93,18 +92,22 @@ models/moonbase_objects/c_white
 	q3map_nonplanar
 	cull none
 	q3map_surfacelight 3000
-	diffusemap textures/moonbase_metals/c_white
-	normalmap textures/moonbase_metals/basic_normal
-	specularmap textures/moonbase_metals/basic_spec
+	{
+		diffuseMap textures/moonbase_metals/c_white
+		normalMap textures/moonbase_metals/basic_normal
+		specularMap textures/moonbase_metals/basic_spec
+	}
 }
 
 textures/moonbase_metals/c_yellow
 {
 	qer_editorimage textures/moonbase_metals/c_yellow
 	cull none
-	diffusemap textures/moonbase_metals/c_yellow
-	normalmap textures/moonbase_metals/basic_normal
-	specularmap textures/moonbase_metals/basic_spec
+	{
+		diffuseMap textures/moonbase_metals/c_yellow
+		normalMap textures/moonbase_metals/basic_normal
+		specularMap textures/moonbase_metals/basic_spec
+	}
 }
 
 // for the model
@@ -115,12 +118,11 @@ models/moonbase_objects/c_yellow
 	q3map_nonplanar
 	cull none
 	{
-	stage diffusemap
-	map textures/moonbase_metals/c_yellow
-	rgbgen vertex
+		diffuseMap textures/moonbase_metals/c_yellow
+		normalMap textures/moonbase_metals/basic_normal
+		specularMap textures/moonbase_metals/basic_spec
+		rgbgen vertex
 	}
-	normalmap textures/moonbase_metals/basic_normal
-	specularmap textures/moonbase_metals/basic_spec
 }
 
 textures/moonbase_metals/c_purple
@@ -128,9 +130,11 @@ textures/moonbase_metals/c_purple
 	qer_editorimage textures/moonbase_metals/c_purple
 	cull none
 	q3map_forcemeta
-	diffusemap textures/moonbase_metals/c_purple
-	normalmap textures/moonbase_metals/basic_normal
-	specularmap textures/moonbase_metals/basic_spec
+	{
+		diffuseMap textures/moonbase_metals/c_purple
+		normalMap textures/moonbase_metals/basic_normal
+		specularMap textures/moonbase_metals/basic_spec
+	}
 }
 
 models/moonbase_objects/c_purple
@@ -140,21 +144,21 @@ models/moonbase_objects/c_purple
 	q3map_forcemeta
 	q3map_nonplanar
 	{
-	stage diffusemap
-	map textures/moonbase_metals/c_purple
-	rgbgen vertex
+		diffuseMap textures/moonbase_metals/c_purple
+		normalMap textures/moonbase_metals/basic_normal
+		specularMap textures/moonbase_metals/basic_spec
+		rgbgen vertex
 	}
-	normalmap textures/moonbase_metals/basic_normal
-	specularmap textures/moonbase_metals/basic_spec
 }
-
 
 textures/moonbase_metals/black_shiny
 {
 	qer_editorimage textures/moonbase_metals/black_shiny
-	diffusemap textures/moonbase_metals/black_shiny
-	normalmap textures/moonbase_metals/basic_normal
-	specularmap textures/moonbase_metals/basic_spec
+	{
+		diffuseMap textures/moonbase_metals/black_shiny
+		normalMap textures/moonbase_metals/basic_normal
+		specularMap textures/moonbase_metals/basic_spec
+	}
 }
 
 models/moonbase_objects/black_shiny
@@ -164,11 +168,8 @@ models/moonbase_objects/black_shiny
 	q3map_nonplanar
 	cull none
 	{
-	stage diffusemap
-	map textures/moonbase_metals/black_shiny
-	rgbgen vertex
+		diffuseMap textures/moonbase_metals/black_shiny
+		normalMap textures/moonbase_metals/basic_normal
+		specularMap textures/moonbase_metals/basic_spec
 	}
-	normalmap textures/moonbase_metals/basic_normal
-	specularmap textures/moonbase_metals/basic_spec
 }
-

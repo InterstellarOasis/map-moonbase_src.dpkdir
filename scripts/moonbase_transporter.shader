@@ -5,9 +5,11 @@ models/moonbase_objects/basic_hull
 	q3map_nonplanar
 	q3map_forcemeta
 	cull disable
-	diffusemap textures/moonbase_transporter/basic_hull_d
-	normalmap textures/moonbase_transporter/basic_hull_n
-	specularmap textures/moonbase_transporter/basic_hull_s
+	{
+		diffuseMap textures/moonbase_transporter/basic_hull_d
+		normalMap textures/moonbase_transporter/basic_hull_n
+		specularMap textures/moonbase_transporter/basic_hull_s
+	}
 }
 
 // looks unused
@@ -17,9 +19,11 @@ models/moonbase_objects/cab_door
 	q3map_nonplanar
 	q3map_forcemeta
 	cull disable
-	diffusemap textures/moonbase_transporter/cab_door_d
-	normalmap textures/moonbase_transporter/cab_door_n
-	specularmap textures/moonbase_transporter/cab_door_s
+	{
+		diffuseMap textures/moonbase_transporter/cab_door_d
+		normalMap textures/moonbase_transporter/cab_door_n
+		specularMap textures/moonbase_transporter/cab_door_s
+	}
 }
 
 textures/moonbase_transporter/cab_door
@@ -28,9 +32,9 @@ textures/moonbase_transporter/cab_door
 	q3map_nonplanar
 	q3map_forcemeta
 	cull disable
-	diffusemap textures/moonbase_transporter/cab_door_d
-	normalmap textures/moonbase_transporter/cab_door_n
-	specularmap textures/moonbase_transporter/cab_door_s
+	diffuseMap textures/moonbase_transporter/cab_door_d
+	normalMap textures/moonbase_transporter/cab_door_n
+	specularMap textures/moonbase_transporter/cab_door_s
 }
 
 
@@ -40,9 +44,11 @@ textures/moonbase_transporter/wheel_hub
 	q3map_nonplanar
 	q3map_forcemeta
 	cull disable
-	diffusemap textures/moonbase_transporter/wheel_hub_d
-	normalmap textures/moonbase_transporter/wheel_hub_n
-	specularmap textures/moonbase_transporter/wheel_hub_s
+	{
+		diffuseMap textures/moonbase_transporter/wheel_hub_d
+		normalMap textures/moonbase_transporter/wheel_hub_n
+		specularMap textures/moonbase_transporter/wheel_hub_s
+	}
 }
 
 // looks unused
@@ -52,9 +58,11 @@ models/moonbase_objects/wheel_hub
 	q3map_nonplanar
 	q3map_forcemeta
 	cull disable
-	diffusemap textures/moonbase_transporter/wheel_hub_d
-	normalmap textures/moonbase_transporter/wheel_hub_n
-	specularmap textures/moonbase_transporter/wheel_hub_s
+	{
+		diffuseMap textures/moonbase_transporter/wheel_hub_d
+		normalMap textures/moonbase_transporter/wheel_hub_n
+		specularMap textures/moonbase_transporter/wheel_hub_s
+	}
 }
 
 // looks unused
@@ -64,9 +72,11 @@ models/moonbase_objects/tire_base
 	q3map_nonplanar
 	q3map_forcemeta
 	cull disable
-	diffusemap textures/moonbase_transporter/tire_base_d
-	normalmap textures/moonbase_transporter/tire_base_n
-	specularmap textures/moonbase_transporter/tire_base_s
+	{
+		diffuseMap textures/moonbase_transporter/tire_base_d
+		normalMap textures/moonbase_transporter/tire_base_n
+		specularMap textures/moonbase_transporter/tire_base_s
+	}
 }
 
 textures/moonbase_transporter/tire_base
@@ -75,8 +85,9 @@ textures/moonbase_transporter/tire_base
 	q3map_nonplanar
 	q3map_forcemeta
 	cull disable
-	diffusemap textures/moonbase_transporter/tire_base_d
-	normalmap textures/moonbase_transporter/tire_base_n
-	specularmap textures/moonbase_transporter/tire_base_s
+	{
+		diffuseMap textures/moonbase_transporter/tire_base_d
+		normalMap textures/moonbase_transporter/tire_base_n
+		specularMap textures/moonbase_transporter/tire_base_s
+	}
 }
-
