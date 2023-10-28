@@ -277,27 +277,54 @@ models/moonbase_objects/yellow_barre
 	}
 }
 
-models/moonbase_objects/utilitylamp
+models/moonbase_objects/utility_light
 {
-	qer_editorimage textures/moonbase_objects/utilitylamp
+	qer_editorimage textures/moonbase_objects/utilitylamp_d
 	q3map_nonplanar
 	q3map_forcemeta
 	q3map_shadeangle 60
 	{
-		diffuseMap textures/moonbase_objects/utilitylamp
+		diffuseMap textures/moonbase_objects/utilitylamp_d
 		glowMap textures/moonbase_objects/utilitylamp_g
 		rgbgen vertex
 	}
 }
 
+// likely unused
+models/moonbase_objects/utilitylamp
+{
+	qer_editorimage textures/moonbase_objects/utilitylamp_d
+	q3map_nonplanar
+	q3map_forcemeta
+	q3map_shadeangle 60
+	{
+		diffuseMap textures/moonbase_objects/utilitylamp_d
+		glowMap textures/moonbase_objects/utilitylamp_g
+		rgbgen vertex
+	}
+}
+
+models/moonbase_objects/utility_stand
+{
+	q3map_nonplanar
+	q3map_forcemeta
+	q3map_shadeangle 60
+	qer_editorimage textures/moonbase_objects/utilitylamp_stand_d
+	{
+		diffuseMap textures/moonbase_objects/utilitylamp_stand_d
+		rgbgen vertex
+	}
+}
+
+// likely unused
 models/moonbase_objects/utilitylamp_stand
 {
 	q3map_nonplanar
 	q3map_forcemeta
 	q3map_shadeangle 60
-	qer_editorimage textures/moonbase_objects/utilitylamp_stand
+	qer_editorimage textures/moonbase_objects/utilitylamp_stand_d
 	{
-		diffuseMap textures/moonbase_objects/utilitylamp_stand
+		diffuseMap textures/moonbase_objects/utilitylamp_stand_d
 		rgbgen vertex
 	}
 }

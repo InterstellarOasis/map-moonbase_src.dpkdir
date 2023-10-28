@@ -298,7 +298,6 @@ textures/moonbase_walls/vent_d
 	}
 }
 
-
 textures/moonbase_walls/plate_girder_01_d
 {
 	qer_editorimage textures/moonbase_walls/plate_girder_01_d
