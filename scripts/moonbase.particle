@@ -20,7 +20,7 @@ waterdrop_shader
 			acceleration 0 0 -1 ~25
 
 			radius 0 4 0.5
-			alpha 1 1 1 
+			alpha 1 1 1
 			bounce 0.5
 			lifeTime 1500-2500
 			overdrawProtection
@@ -75,7 +75,7 @@ mist_shader
 			accelerationMagnitude 44
 
 			radius 75 30 15
-			alpha 1 1 1 
+			alpha 1 1 1
 			rotation 0 0 ~3
 
 			lifeTime 1000
@@ -86,5 +86,5 @@ mist_shader
 		delay 0
 		count infinite
 		period 50 - 0
-	}	
+	}
 }

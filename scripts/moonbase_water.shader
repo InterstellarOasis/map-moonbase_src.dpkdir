@@ -101,7 +101,7 @@ textures/moonbase_water/water_bluish
 		blendfunc blend
 		tcmod stretch sin 1 0.01 1 0.4
 	}
-}
+}	
 
 models/moonbase_objects/water_bluish
 {
@@ -111,7 +111,7 @@ models/moonbase_objects/water_bluish
 	surfaceparm nomarks
 	surfaceparm trans
 	surfaceparm water
-	sort water
+	sort water	
 	cull disable
 	qer_trans 0.5
 	q3map_surfacelight 500
@@ -122,7 +122,7 @@ models/moonbase_objects/water_bluish
 		blendfunc blend
 		tcmod stretch sin 1 0.01 1 0.4
 	}
-}
+}	
 
 
 textures/moonbase_water/waterfall
