@@ -1,6 +1,6 @@
 textures/moonbase_base/moon_sky
 {
-	qer_editorimage textures/env/moon
+	qer_editorimage env/moon/moon_ft
 
 	surfaceparm noimpact
 	surfaceparm nolightmap
@@ -10,7 +10,7 @@ textures/moonbase_base/moon_sky
 	nomipmaps
 	nopicmip
 //	q3map_skylight 20 8
-	skyParms textures/env/moon - -
+	skyParms env/moon/moon - -
 	q3map_sunExt 107 107 107 40 180 90 2 16
 //	q3map_globaltexture
 }
