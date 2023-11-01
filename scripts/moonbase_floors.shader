@@ -1,7 +1,6 @@
 textures/moonbase_floors/diamond_03
 {
 	qer_editorimage textures/moonbase_floors/diamond_03
-	cull none
 	{
 		diffuseMap textures/moonbase_floors/diamond_03
 		normalMap textures/moonbase_floors/diamond_03_n
@@ -12,7 +11,6 @@ textures/moonbase_floors/diamond_03
 textures/moonbase_floors/redocto_d
 {
 	qer_editorimage textures/moonbase_floors/redocto_d
-	cull none
 	{
 		diffuseMap textures/moonbase_floors/redocto_d
 		normalMap textures/moonbase_floors/redocto_n
@@ -24,7 +22,6 @@ textures/moonbase_floors/redocto_d
 textures/moonbase_floors/plate_04_d
 {
 	qer_editorimage textures/moonbase_floors/plate_04_d
-	cull none
 	{
 		diffuseMap textures/moonbase_floors/plate_04_d
 		normalMap textures/moonbase_floors/plate_04_n
@@ -35,7 +32,6 @@ textures/moonbase_floors/plate_04_d
 textures/moonbase_floors/plate_step_00_d
 {
 	qer_editorimage textures/moonbase_floors/plate_step_00_d
-	cull none
 	{
 		diffuseMap textures/moonbase_floors/plate_step_00_d
 		normalMap textures/moonbase_floors/plate_step_00_n
@@ -46,7 +42,6 @@ textures/moonbase_floors/plate_step_00_d
 textures/moonbase_floors/plate_step_04_d
 {
 	qer_editorimage textures/moonbase_floors/plate_step_04_d
-	cull none
 	{
 		diffuseMap textures/moonbase_floors/plate_step_04_d
 		normalMap textures/moonbase_floors/plate_step_00_n
@@ -57,7 +52,6 @@ textures/moonbase_floors/plate_step_04_d
 textures/moonbase_floors/plate_step_01_d
 {
 	qer_editorimage textures/moonbase_floors/plate_step_01_d
-	cull none
 	{
 		diffuseMap textures/moonbase_floors/plate_step_01_d
 		normalMap textures/moonbase_floors/plate_step_01_n
@@ -68,7 +62,6 @@ textures/moonbase_floors/plate_step_01_d
 textures/moonbase_floors/plate_step_05_d
 {
 	qer_editorimage textures/moonbase_floors/plate_step_05_d
-	cull none
 	{
 		diffuseMap textures/moonbase_floors/plate_step_05_d
 		normalMap textures/moonbase_floors/plate_step_01_n
