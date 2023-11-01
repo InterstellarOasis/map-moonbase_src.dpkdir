@@ -55,7 +55,7 @@ models/biodome/sand
 models/biodome/grass1
 {
 	qer_editorimage textures/moonbase_nature/grass1_d
-	cull disable
+	cull none
 	q3map_forcemeta
 	surfaceparm detail
 	q3map_nonplanar
@@ -69,7 +69,7 @@ models/biodome/grass1
 textures/moonbase_nature/grass1_d
 {
 	qer_editorimage textures/moonbase_nature/grass1_d
-	cull disable
+	cull none
 	{
 		diffuseMap textures/moonbase_nature/grass1_d
 		normalMap textures/moonbase_nature/grass1_n

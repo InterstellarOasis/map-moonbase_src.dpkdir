@@ -91,7 +91,7 @@ textures/moonbase_water/water_bluish
 	surfaceparm trans
 	surfaceparm detail
 	surfaceparm water
-	cull disable
+	cull none
 	qer_trans 0.5
 	q3map_surfacelight 100
 	{
@@ -112,7 +112,7 @@ models/moonbase_objects/water_bluish
 	surfaceparm trans
 	surfaceparm water
 	sort water	
-	cull disable
+	cull none
 	qer_trans 0.5
 	q3map_surfacelight 500
 	{
@@ -134,7 +134,7 @@ textures/moonbase_water/waterfall
 	surfaceparm detail
 	surfaceparm water
 	q3map_surfacelight 600
-	cull disable
+	cull none
 	{
 		diffuseMap textures/moonbase_water/water_bluish
 		tcmod scroll 0 -0.3

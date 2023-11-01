@@ -3,7 +3,7 @@ models/moonbase_plants/palm01
 	qer_editorimage textures/moonbase_plants/palm01
 	surfaceparm nomarks
 	surfaceparm trans
-	cull disable
+	cull none
 	surfaceparm detail
 	qer_trans 0.5
 	q3map_forcemeta
@@ -26,7 +26,7 @@ models/moonbase_plants/small_01
 {
 	qer_editorimage textures/moonbase_plants/small_plant1
 	surfaceparm nomarks
-	cull disable
+	cull none
 	qer_trans 0.5
 	surfaceparm detail
 	q3map_forcemeta
@@ -45,7 +45,7 @@ models/moonbase_plants/small_plant1
 {
 	qer_editorimage textures/moonbase_plants/small_plant1
 	surfaceparm nomarks
-	cull disable
+	cull none
 	qer_trans 0.5
 	surfaceparm detail
 	q3map_forcemeta
@@ -66,7 +66,7 @@ models/moonbase_plants/fern
 	qer_editorimage textures/moonbase_plants/fern
 	surfaceparm nomarks
 	surfaceparm trans
-	cull disable
+	cull none
 	qer_trans 0.5
 	q3map_forcemeta
 	q3map_nonplanar
@@ -192,7 +192,7 @@ models/moonbase_plants/leaf
 	surfaceparm nomarks
 	surfaceparm detail
 	surfaceparm trans
-	cull disable
+	cull none
 	qer_trans 0.5
 	q3map_forcemeta
 	q3map_lightmapMergable
@@ -217,7 +217,7 @@ models/moonbase_plants/dracio
 	surfaceparm nomarks
 	surfaceparm detail
 	surfaceparm trans
-	cull disable
+	cull none
 	q3map_forcemeta
 	q3map_nonplanar
 	q3map_lightmapMergable
@@ -240,7 +240,7 @@ models/moonbase_plants/grass
 	surfaceparm nomarks
 	surfaceparm trans
 	surfaceparm detail
-	cull disable
+	cull none
 	qer_trans 0.5
 	q3map_forcemeta
 	q3map_lightmapMergable
