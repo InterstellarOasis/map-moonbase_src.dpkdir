@@ -90,7 +90,6 @@ models/moonbase_plants/bark01
 	qer_editorimage textures/moonbase_plants/bark01
 	surfaceparm nomarks
 	surfaceparm detail
-	cull disable
 	q3map_forcemeta
 	q3map_nonplanar
 	q3map_lightmapMergable
@@ -105,7 +104,6 @@ models/moonbase_plants/bark01
 models/moonbase_plants/bark02
 {
 	qer_editorimage textures/moonbase_plants/bark02
-	cull disable
 	q3map_forcemeta
 	surfaceparm detail
 	q3map_nonplanar
@@ -123,7 +121,6 @@ models/moonbase_plants/bark02
 models/moonbase_plants/bark03
 {
 	qer_editorimage textures/moonbase_plants/bark03
-	cull none
 	q3map_clipmodel
 	surfaceparm detail
 	q3map_forcemeta
