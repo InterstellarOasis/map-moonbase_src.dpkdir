@@ -11,7 +11,6 @@ models/biodome/fclip {
 // the all important moonrock - keep it simple.
 textures/moonbase_nature/moonrock
 {
-	cull none
 	qer_editorimage textures/moonbase_nature/moonrock
 	{
 		diffuseMap textures/moonbase_nature/moonrock
@@ -22,7 +21,6 @@ textures/moonbase_nature/moonrock
 
 models/biodome/moonrock
 {
-	cull none
 	qer_editorimage textures/moonbase_nature/moonrock
 	q3map_forceMeta
 	surfaceparm detail
@@ -40,7 +38,6 @@ models/biodome/moonrock
 // model
 models/biodome/sand
 {
-	cull none
 	q3map_forcemeta
 	q3map_clipmodel
 	q3map_nonplanar
@@ -83,7 +80,6 @@ textures/moonbase_nature/grass1_d
 models/moonbase_objects/rock1
 {
 	qer_editorimage textures/moonbase_nature/rock1_d
-	cull none
 	q3map_forcemeta
 	q3map_clipmodel
 	q3map_nonplanar
@@ -99,7 +95,6 @@ models/moonbase_objects/rock1
 models/moonbase_objects/rock2
 {
 	qer_editorimage textures/moonbase_nature/rock2_d
-	cull none
 	surfaceparm detail
 	q3map_forcemeta
 	q3map_clipmodel
@@ -115,7 +110,6 @@ models/moonbase_objects/rock2
 models/moonbase_objects/rock3
 {
 	qer_editorimage textures/moonbase_nature/rock3_d
-	cull none
 	surfaceparm detail
 	q3map_forcemeta
 	q3map_clipmodel
