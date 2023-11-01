@@ -313,7 +313,6 @@ textures/moonbase_walls/plate_11_d
 textures/moonbase_walls/plate_15_d
 {
 	qer_editorimage textures/moonbase_walls/plate_15_d
-	surfaceparm trans
 	{
 		diffuseMap textures/moonbase_walls/plate_15_d
 		normalMap textures/moonbase_walls/plate_15_n
