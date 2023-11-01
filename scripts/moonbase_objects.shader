@@ -13,7 +13,6 @@ models/moonbase_objects/goldfish
 	qer_editorimage textures/moonbase_objects/goldfish
 	q3map_forcemeta
 	q3map_nonplanar
-	cull disable
 	{
 		diffuseMap textures/moonbase_objects/goldfish
 	}
@@ -24,7 +23,6 @@ models/moonbase_objects/clownfishclo
 	qer_editorimage textures/moonbase_objects/clownfish
 	q3map_forcemeta
 	q3map_nonplanar
-	cull disable
 	{
 		diffuseMap textures/moonbase_objects/clownfish
 	}
@@ -46,7 +44,6 @@ models/moonbase_objects/portal
 textures/moonbase_objects/leather1
 {
 	qer_editorimage textures/moonbase_objects/leather1
-	cull none
 	{
 		diffuseMap textures/moonbase_objects/leather1
 		normalMap textures/moonbase_objects/leather1_n
@@ -57,7 +54,6 @@ textures/moonbase_objects/leather1
 models/moonbase_objects/laptop_scree
 {
 	qer_editorimage textures/moonbase_objects/laptop_screen
-	cull none
 	q3map_forcemeta
 	q3map_nonplanar
 	q3map_surfacelight 250
@@ -70,7 +66,6 @@ models/moonbase_objects/laptop_scree
 models/moonbase_objects/laptop_keybo
 {
 	qer_editorimage textures/moonbase_objects/laptop_keyboard
-	cull none
 	q3map_forcemeta
 	q3map_nonplanar
 	{
@@ -83,7 +78,6 @@ models/moonbase_objects/laptop_keybo
 models/moonbase_objects/laptop_base
 {
 	qer_editorimage textures/moonbase_objects/laptop_base
-	cull none
 	q3map_forcemeta
 	q3map_nonplanar
 	{
@@ -95,7 +89,6 @@ models/moonbase_objects/laptop_base
 models/moonbase_objects/texture/moonbase_objects/keyboard
 {
 	qer_editorimage textures/moonbase_objects/keyboard
-	cull none
 	q3map_forcemeta
 	q3map_nonplanar
 	{
