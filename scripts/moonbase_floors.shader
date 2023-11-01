@@ -84,7 +84,6 @@ textures/moonbase_floors/e6xgratebasic
 textures/moonbase_floors/grate7_alpha_d
 {
 	qer_editorimage textures/moonbase_floors/grate7_alpha_d
-	cull disable
 	surfaceparm trans
 	{
 		diffuseMap textures/moonbase_floors/grate7_alpha_d
@@ -97,7 +96,6 @@ textures/moonbase_floors/grate7_alpha_d
 textures/moonbase_floors/grate25_d
 {
 	qer_editorimage textures/moonbase_floors/grate25_d
-	cull none
 	surfaceparm trans
 	{
 		diffuseMap textures/moonbase_floors/grate25_d
