@@ -1,7 +1,6 @@
 textures/moonbase_walls/rwall4_d
 {
 	qer_editorimage textures/moonbase_walls/rwall4_d
-	cull none
 	{
 		diffuseMap textures/moonbase_walls/rwall4_d
 		normalMap textures/moonbase_walls/rgbywall4_n
@@ -12,7 +11,6 @@ textures/moonbase_walls/rwall4_d
 textures/moonbase_walls/gwall4_d
 {
 	qer_editorimage textures/moonbase_walls/gwall4_d
-	cull none
 	{
 		diffuseMap textures/moonbase_walls/gwall4_d
 		normalMap textures/moonbase_walls/rgbywall4_n
@@ -23,7 +21,6 @@ textures/moonbase_walls/gwall4_d
 textures/moonbase_walls/bwall4_d
 {
 	qer_editorimage textures/moonbase_walls/bwall4_d
-	cull none
 	{
 		diffuseMap textures/moonbase_walls/bwall4_d
 		normalMap textures/moonbase_walls/rgbywall4_n
@@ -34,7 +31,6 @@ textures/moonbase_walls/bwall4_d
 textures/moonbase_walls/ywall4_d
 {
 	qer_editorimage textures/moonbase_walls/ywall4_d
-	cull none
 	{
 		diffuseMap textures/moonbase_walls/ywall4_d
 		normalMap textures/moonbase_walls/rgbywall4_n
@@ -45,7 +41,6 @@ textures/moonbase_walls/ywall4_d
 textures/moonbase_walls/ywall3_d
 {
 	qer_editorimage textures/moonbase_walls/ywall3_d
-	cull none
 	{
 		diffuseMap textures/moonbase_walls/ywall3_d
 		normalMap textures/moonbase_walls/ywall3_n
@@ -56,7 +51,6 @@ textures/moonbase_walls/ywall3_d
 textures/moonbase_walls/ywall1_d
 {
 	qer_editorimage textures/moonbase_walls/ywall1_d
-	cull none
 	{
 		diffuseMap textures/moonbase_walls/ywall1_d
 		normalMap textures/moonbase_walls/rgbywall1_n
@@ -67,7 +61,6 @@ textures/moonbase_walls/ywall1_d
 textures/moonbase_walls/bwall1_d
 {
 	qer_editorimage textures/moonbase_walls/bwall1_d
-	cull none
 	{
 		diffuseMap textures/moonbase_walls/bwall1_d
 		normalMap textures/moonbase_walls/bwall1_n
@@ -78,7 +71,6 @@ textures/moonbase_walls/bwall1_d
 textures/moonbase_walls/gwall1_d
 {
 	qer_editorimage textures/moonbase_walls/gwall1_d
-	cull none
 	{
 		diffuseMap textures/moonbase_walls/gwall1_d
 		normalMap textures/moonbase_walls/ywall2_n
@@ -89,7 +81,6 @@ textures/moonbase_walls/gwall1_d
 textures/moonbase_walls/ywall2_d
 {
 	qer_editorimage textures/moonbase_walls/ywall2_d
-	cull none
 	{
 		diffuseMap textures/moonbase_walls/ywall2_d
 		normalMap textures/moonbase_walls/ywall2_n
@@ -100,7 +91,6 @@ textures/moonbase_walls/ywall2_d
 textures/moonbase_walls/gwall2_d
 {
 	qer_editorimage textures/moonbase_walls/gwall2_d
-	cull none
 	{
 		diffuseMap textures/moonbase_walls/gwall2_d
 		normalMap textures/moonbase_walls/rgbywall1_n
@@ -111,7 +101,6 @@ textures/moonbase_walls/gwall2_d
 textures/moonbase_walls/rwall2_d
 {
 	qer_editorimage textures/moonbase_walls/rwall2_d
-	cull none
 	{
 		diffuseMap textures/moonbase_walls/rwall2_d
 		normalMap textures/moonbase_walls/rgbywall1_n
@@ -122,7 +111,6 @@ textures/moonbase_walls/rwall2_d
 textures/moonbase_walls/bwall2_d
 {
 	qer_editorimage textures/moonbase_walls/bwall2_d
-	cull none
 	{
 		diffuseMap textures/moonbase_walls/bwall2_d
 		normalMap textures/moonbase_walls/rgbywall1_n
@@ -133,7 +121,6 @@ textures/moonbase_walls/bwall2_d
 textures/moonbase_walls/rtrim3_d
 {
 	qer_editorimage textures/moonbase_walls/rtrim3_d
-	cull none
 	{
 		diffuseMap textures/moonbase_walls/rtrim3_d
 		normalMap textures/moonbase_walls/ytrim3_n
@@ -144,7 +131,6 @@ textures/moonbase_walls/rtrim3_d
 textures/moonbase_walls/gtrim3_d
 {
 	qer_editorimage textures/moonbase_walls/gtrim3_d
-	cull none
 	{
 		diffuseMap textures/moonbase_walls/gtrim3_d
 		normalMap textures/moonbase_walls/ytrim3_n
@@ -155,7 +141,6 @@ textures/moonbase_walls/gtrim3_d
 textures/moonbase_walls/btrim3_d
 {
 	qer_editorimage textures/moonbase_walls/btrim3_d
-	cull none
 	{
 		diffuseMap textures/moonbase_walls/btrim3_d
 		normalMap textures/moonbase_walls/ytrim3_n
@@ -166,7 +151,6 @@ textures/moonbase_walls/btrim3_d
 textures/moonbase_walls/ytrim3_d
 {
 	qer_editorimage textures/moonbase_walls/ytrim3_d
-	cull none
 	{
 		diffuseMap textures/moonbase_walls/ytrim3_d
 		normalMap textures/moonbase_walls/ytrim3_n
@@ -177,7 +161,6 @@ textures/moonbase_walls/ytrim3_d
 textures/moonbase_walls/btrim2_d
 {
 	qer_editorimage textures/moonbase_walls/btrim2_d
-	cull none
 	{
 		diffuseMap textures/moonbase_walls/btrim2_d
 		normalMap textures/moonbase_walls/ytrim2_n
@@ -188,7 +171,6 @@ textures/moonbase_walls/btrim2_d
 textures/moonbase_walls/gtrim2_d
 {
 	qer_editorimage textures/moonbase_walls/gtrim2_d
-	cull none
 	{
 		diffuseMap textures/moonbase_walls/gtrim2_d
 		normalMap textures/moonbase_walls/ytrim2_n
@@ -199,7 +181,6 @@ textures/moonbase_walls/gtrim2_d
 textures/moonbase_walls/ytrim2_d
 {
 	qer_editorimage textures/moonbase_walls/ytrim2_d
-	cull none
 	{
 		diffuseMap textures/moonbase_walls/ytrim2_d
 		normalMap textures/moonbase_walls/ytrim2_n
@@ -210,7 +191,6 @@ textures/moonbase_walls/ytrim2_d
 textures/moonbase_walls/ytrim1_d
 {
 	qer_editorimage textures/moonbase_walls/ytrim1_d
-	cull none
 	{
 		diffuseMap textures/moonbase_walls/ytrim1_d
 		normalMap textures/moonbase_walls/ytrim1_n
@@ -221,7 +201,6 @@ textures/moonbase_walls/ytrim1_d
 textures/moonbase_walls/rtrim1_d
 {
 	qer_editorimage textures/moonbase_walls/rtrim1_d
-	cull none
 	{
 		diffuseMap textures/moonbase_walls/rtrim1_d
 		normalMap textures/moonbase_walls/ytrim1_n
@@ -232,7 +211,6 @@ textures/moonbase_walls/rtrim1_d
 textures/moonbase_walls/btrim1_d
 {
 	qer_editorimage textures/moonbase_walls/btrim1_d
-	cull none
 	{
 		diffuseMap textures/moonbase_walls/btrim1_d
 		normalMap textures/moonbase_walls/ytrim1_n
@@ -243,7 +221,6 @@ textures/moonbase_walls/btrim1_d
 textures/moonbase_walls/gtrim1_d
 {
 	qer_editorimage textures/moonbase_walls/gtrim1_d
-	cull none
 	{
 		diffuseMap textures/moonbase_walls/gtrim1_d
 		normalMap textures/moonbase_walls/ytrim1_n
@@ -256,7 +233,6 @@ textures/moonbase_walls/fence
 	qer_editorimage textures/moonbase_walls/fence
 	surfaceparm trans
 	qer_trans 0.5
-	cull disable
 	{
 		diffuseMap textures/moonbase_walls/fence
 		normalMap textures/moonbase_walls/fence_n
@@ -268,7 +244,6 @@ textures/moonbase_walls/fence
 textures/moonbase_walls/panel1_d
 {
 	qer_editorimage textures/moonbase_walls/panel1_d
-	cull none
 	{
 		diffuseMap textures/moonbase_walls/panel1_d
 		normalMap textures/moonbase_walls/panel1_n
@@ -290,7 +265,6 @@ textures/moonbase_walls/lift_switch_d
 textures/moonbase_walls/vent_d
 {
 	qer_editorimage textures/moonbase_walls/vent_d
-	cull none
 	{
 		diffuseMap textures/moonbase_walls/vent_d
 		normalMap textures/moonbase_walls/vent_n
@@ -301,7 +275,6 @@ textures/moonbase_walls/vent_d
 textures/moonbase_walls/plate_girder_01_d
 {
 	qer_editorimage textures/moonbase_walls/plate_girder_01_d
-	cull disable
 	surfaceparm trans
 	{
 		diffuseMap textures/moonbase_walls/plate_girder_01_d
@@ -315,7 +288,6 @@ textures/moonbase_walls/plate_girder_01_d
 textures/moonbase_walls/plate_10_d
 {
 	qer_editorimage textures/moonbase_walls/plate_10_d
-	cull disable
 	surfaceparm trans
 	{
 		diffuseMap textures/moonbase_walls/plate_10_d
@@ -329,7 +301,6 @@ textures/moonbase_walls/plate_10_d
 textures/moonbase_walls/plate_11_d
 {
 	qer_editorimage textures/moonbase_walls/plate_11_d
-	cull disable
 	surfaceparm trans
 	{
 		diffuseMap textures/moonbase_walls/plate_11_d
@@ -342,7 +313,6 @@ textures/moonbase_walls/plate_11_d
 textures/moonbase_walls/plate_15_d
 {
 	qer_editorimage textures/moonbase_walls/plate_15_d
-	cull disable
 	surfaceparm trans
 	{
 		diffuseMap textures/moonbase_walls/plate_15_d
