@@ -14,7 +14,6 @@ models/biodome/shiny_metal
 	q3map_forcemeta
 	q3map_nonplanar
 	q3map_shadeangle 60
-	cull none
 //	surfaceparm detail
 	{
 		diffuseMap textures/moonbase_metals/shiny_metal_d
@@ -30,7 +29,6 @@ models/moonbase_objects/shiny_metal
 	q3map_forcemeta
 	q3map_nonplanar
 	q3map_shadeangle 60
-	cull none
 //	surfaceparm detail
 	{
 		diffuseMap textures/moonbase_metals/shiny_metal_d
@@ -43,7 +41,6 @@ models/moonbase_objects/shiny_metal
 textures/moonbase_metals/panel_1_basic
 {
 	qer_editorimage textures/moonbase_metals/panel_1_basic_d
-	cull none
 	{
 		diffuseMap textures/moonbase_metals/panel_1_basic_d
 		normalMap textures/moonbase_metals/panel_1_basic_n
@@ -54,7 +51,6 @@ textures/moonbase_metals/panel_1_basic
 textures/moonbase_metals/c_red
 {
 	qer_editorimage textures/moonbase_metals/c_red
-	cull none
 	{
 		diffuseMap textures/moonbase_metals/c_red
 		normalMap textures/moonbase_metals/basic_normal
@@ -65,7 +61,6 @@ textures/moonbase_metals/c_red
 models/moonbase_objects/c_red
 {
 	qer_editorimage textures/moonbase_metals/c_red
-	cull none
 	{
 		diffuseMap textures/moonbase_metals/c_red
 		normalMap textures/moonbase_metals/basic_normal
@@ -76,7 +71,6 @@ models/moonbase_objects/c_red
 textures/moonbase_metals/c_white
 {
 	qer_editorimage textures/moonbase_metals/c_white
-	cull none
 	q3map_surfacelight 3000
 	{
 		diffuseMap textures/moonbase_metals/c_white
@@ -90,7 +84,6 @@ models/moonbase_objects/c_white
 	qer_editorimage textures/moonbase_metals/c_white
 	q3map_forcemeta
 	q3map_nonplanar
-	cull none
 	q3map_surfacelight 3000
 	{
 		diffuseMap textures/moonbase_metals/c_white
@@ -102,7 +95,6 @@ models/moonbase_objects/c_white
 textures/moonbase_metals/c_yellow
 {
 	qer_editorimage textures/moonbase_metals/c_yellow
-	cull none
 	{
 		diffuseMap textures/moonbase_metals/c_yellow
 		normalMap textures/moonbase_metals/basic_normal
@@ -116,7 +108,6 @@ models/moonbase_objects/c_yellow
 	qer_editorimage textures/moonbase_metals/c_yellow
 	q3map_forcemeta
 	q3map_nonplanar
-	cull none
 	{
 		diffuseMap textures/moonbase_metals/c_yellow
 		normalMap textures/moonbase_metals/basic_normal
@@ -128,7 +119,6 @@ models/moonbase_objects/c_yellow
 textures/moonbase_metals/c_purple
 {
 	qer_editorimage textures/moonbase_metals/c_purple
-	cull none
 	q3map_forcemeta
 	{
 		diffuseMap textures/moonbase_metals/c_purple
@@ -140,7 +130,6 @@ textures/moonbase_metals/c_purple
 models/moonbase_objects/c_purple
 {
 	qer_editorimage textures/moonbase_metals/c_purple
-	cull none
 	q3map_forcemeta
 	q3map_nonplanar
 	{
@@ -166,7 +155,6 @@ models/moonbase_objects/black_shiny
 	qer_editorimage textures/moonbase_metals/black_shiny
 	q3map_forcemeta
 	q3map_nonplanar
-	cull none
 	{
 		diffuseMap textures/moonbase_metals/black_shiny
 		normalMap textures/moonbase_metals/basic_normal
