@@ -72353,7 +72353,6 @@ moonbase_metals/shiny_metal
 "origin" "3103.000000 -978.000000 -225.000000"
 "_color" "1 0.982849 0.759884"
 "light" "150"
-"spawnflags" "1"
 }
 {
 "classname" "misc_model"
@@ -72366,7 +72365,6 @@ moonbase_metals/shiny_metal
 "light" "100"
 "_color" "1 0.982849 0.759884"
 "angle" "90.00000"
-"spawnflags" "1"
 }
 {
 "classname" "misc_model"
@@ -72398,7 +72396,6 @@ moonbase_metals/shiny_metal
 "classname" "light"
 "origin" "4760.000000 -338.000000 -96.000000"
 "light" "100"
-"spawnflags" "1"
 }
 {
 "classname" "light"
@@ -76332,7 +76329,6 @@ common/playerclip
 "light" "250"
 "radius" "360"
 "_color" "1 0.982849 0.759884"
-"spawnflags" "1"
 }
 {
 "classname" "light"
@@ -76340,7 +76336,6 @@ common/playerclip
 "light" "250"
 "radius" "360"
 "_color" "1 0.982849 0.759884"
-"spawnflags" "1"
 }
 {
 "classname" "light"
@@ -76348,7 +76343,6 @@ common/playerclip
 "light" "250"
 "radius" "360"
 "_color" "1 0.982849 0.759884"
-"spawnflags" "1"
 }
 {
 "classname" "light"
@@ -76356,7 +76350,6 @@ common/playerclip
 "light" "250"
 "radius" "360"
 "_color" "1 0.982849 0.759884"
-"spawnflags" "1"
 }
 {
 "classname" "light"
@@ -76364,7 +76357,6 @@ common/playerclip
 "light" "250"
 "radius" "360"
 "_color" "1 0.982849 0.759884"
-"spawnflags" "1"
 }
 {
 "classname" "misc_model"
@@ -76389,7 +76381,6 @@ common/playerclip
 "classname" "light"
 "origin" "2244.000000 -1208.000000 -264.000000"
 "light" "100"
-"spawnflags" "1"
 "_color" "1 0.970031 0.616953"
 }
 {
@@ -76402,7 +76393,6 @@ common/playerclip
 "origin" "3269.000000 -1078.000000 -226.000000"
 "_color" "1 0.982849 0.759884"
 "light" "150"
-"spawnflags" "1"
 }
 {
 "classname" "misc_model"
@@ -76430,7 +76420,6 @@ common/playerclip
 "origin" "3287.000000 -978.000000 -225.000000"
 "_color" "1 0.982849 0.759884"
 "light" "150"
-"spawnflags" "1"
 }
 {
 "classname" "light"
@@ -76438,7 +76427,6 @@ common/playerclip
 "light" "250"
 "radius" "360"
 "_color" "1 0.982849 0.759884"
-"spawnflags" "1"
 }
 {
 "classname" "light"
@@ -77218,7 +77206,6 @@ common/playerclip
 "origin" "3101.000000 -1156.000000 -197.000000"
 "_color" "1 0.982849 0.759884"
 "light" "150"
-"spawnflags" "1"
 }
 {
 "classname" "misc_model"
@@ -77244,7 +77231,6 @@ common/playerclip
 "classname" "light"
 "origin" "4265.000000 -1105.000000 -266.000000"
 "light" "200"
-"spawnflags" "1"
 }
 {
 "classname" "light"
@@ -77260,7 +77246,6 @@ common/playerclip
 "classname" "light"
 "origin" "3978.000000 -1215.000000 -266.000000"
 "light" "200"
-"spawnflags" "1"
 }
 {
 "classname" "func_door"
