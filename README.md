@@ -26,6 +26,7 @@ Textures:
 
 ## History
 
+* `2026-09-30`: _Moon base_ 0.7.2 (Unvanquished community map dpk)
 * `2023-11-01`: _Moon base_ 0.7.1 (Unvanquished community map dpk)
 * `2014-04-18`: _Moon base_ a7 (Unvanquished map concept pk3)
 * `2014-03-19`: _Moon base_ a6 (Unvanquished map concept pk3)
